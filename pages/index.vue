@@ -14,10 +14,11 @@
             <hr>
           </div>
           <div class="container">
-            <i class="fab fa-twitter fa-3x twitter-color"></i>
-            <i class="fab fa-github fa-3x github-color"></i>
-            <i class="fab fa-linkedin fa-3x linkedin-color"></i>
-            <i class="fab fa-instagram fa-3x instagram-color"></i>
+            <a href="https://www.linkedin.com/in/takato0903/" target="_blank"><i class="fab fa-linkedin fa-3x fa-fw linkedin-color"></i></a>
+            <a href="https://medium.com/@taishi.k" target="_blank"><i class="fab fa-medium fa-3x fa-fw medium-color"></i></a>
+            <a href="https://github.com/taishikato" target="_blank"><i class="fab fa-github fa-3x fa-fw github-color"></i></a>
+            <a href="https://twitter.com/tsh_kt" target="_blank"><i class="fab fa-twitter fa-3x fa-fw twitter-color"></i></a>
+            <a href="https://www.instagram.com/tsh_kt/" target="_blank"><i class="fab fa-instagram fa-3x fa-fw instagram-color"></i></a>
           </div>
         </div>
       </section>
@@ -83,13 +84,16 @@ export default {
   color: #1ea1f2;
 }
 .github-color {
-  color: black;
+  color: #24292e;
 }
 .linkedin-color {
   color: #0077b5;
 }
 .instagram-color {
   color: #272727;
+}
+.medium-color {
+  color: rgba(0,0,0,.84);
 }
 </style>
 
