@@ -4,13 +4,13 @@
       <section class="hero is-large" style="background-color: gray;">
         <div class="hero-body">
           <div class="container">
-            <h2 class="subtitle title-color">
-              TAISHI KATO
-            </h2>
             <h1 class="title is-1 title-color">
               DEVELOPER
               TRAVELER
             </h1>
+            <h2 class="subtitle title-color">
+              TAISHI KATO
+            </h2>
             <hr>
           </div>
           <div class="container">
