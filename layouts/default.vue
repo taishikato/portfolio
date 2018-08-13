@@ -6,7 +6,7 @@
 
 <style>
 * {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 html,.navbar {
   background-color: transparent !important;

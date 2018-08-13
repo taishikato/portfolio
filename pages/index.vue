@@ -1,11 +1,10 @@
 <template>
-  <section id="index">
-    <div>
+    <div id="index">
       <section class="hero is-large" style="background-color: gray;">
         <div class="hero-body">
           <div class="container">
             <h1 class="title is-1 title-color">
-              DEVELOPER
+              DEVELOPER<br />
               TRAVELER
             </h1>
             <h2 class="subtitle title-color">
@@ -22,7 +21,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="section">
         <div class="container">
           <h3 class="title is-3" style="text-align: center;">ABOUT ME</h3>
           <div class="columns">
@@ -30,36 +29,22 @@
               <img src="/img/profile.jpg" />
             </div>
             <div class="column">
-              text
+              yeah
+            </div>
+          </div>
+          <h3 class="title is-3" style="text-align: center;">MY WORK</h3>
+          <div class="columns">
+            <div class="column is-4">
+              <img src="/img/airnote/airnote-screeen.png" />
             </div>
           </div>
         </div>
       </section>
-      <a class="button">Anchor</a>
-      <h1 class="title">
-        portfolio
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
     </div>
-  </section>
 </template>
 
 <script>
 export default {
-  components: {
-  }
 }
 </script>
 
@@ -68,6 +53,7 @@ export default {
   text-align: center;
   background-image: url('https://res.cloudinary.com/guidesquare/image/upload/e_brightness:-20/v1533914896/Federation_Square_Melbourne_Victoria_Australia_c2xmej.jpg');
   background-size: cover;
+  background-position: center;
 }
 .hero h1 {
   font-weight: 900;
@@ -76,6 +62,9 @@ export default {
 }
 #index {
   margin-top: -52px;
+}
+h3.title {
+  letter-spacing: 0.2rem;
 }
 .title-color {
   color: white;
