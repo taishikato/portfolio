@@ -15,7 +15,9 @@
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "@nuxtjs/bulma": "^1.2.0",
-    "nuxt": "^1.0.0"
+    "contentful": "^7.0.0",
+    "nuxt": "^1.0.0",
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

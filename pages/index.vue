@@ -1,6 +1,6 @@
 <template>
     <div id="index">
-      <section class="hero is-large" style="background-color: gray;">
+      <section class="hero is-large">
         <div class="hero-body">
           <div class="container">
             <h1 class="title is-1 title-color">
@@ -33,9 +33,13 @@
             </div>
           </div>
           <h3 class="title is-3" style="text-align: center;">MY WORK</h3>
-          <div class="columns">
-            <div class="column is-4">
-              <img src="/img/airnote/airnote-screeen.png" />
+          <div id="portfolio-list" class="columns">
+            <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap" :style="{backgroundImage: `url('${post.fields.heroImage.fields.file.url}?fit=scale&w=1000')`}">
+              <div class="portfolio-indivisual">
+                <nuxt-link class="portfolio-indivisual-link" :to="`/portfolio/${post.fields.slug}`">
+                  {{ post.fields.title }}
+                </nuxt-link>
+              </div>
             </div>
           </div>
         </div>
@@ -44,7 +48,26 @@
 </template>
 
 <script>
+import {createClient} from '~/plugins/contentful.js';
+const client = createClient();
+
 export default {
+  asyncData ({env}) {
+    return Promise.all([
+      client.getEntries({
+        'sys.id': env.CTF_PERSON_ID
+      }),
+      client.getEntries({
+        'content_type': env.CTF_BLOG_POST_TYPE_ID,
+        order: '-sys.createdAt'
+      })
+    ]).then(([entries, posts]) => {
+      return {
+        person: entries.items[0],
+        posts: posts.items
+      }
+    }).catch(console.error);
+  },
 }
 </script>
 
@@ -83,6 +106,28 @@ h3.title {
 }
 .medium-color {
   color: rgba(0,0,0,.84);
+}
+.portfolio-wrap {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.portfolio-wrap:before {
+  content:"";
+  display: block;
+  padding-top: 75%;
+}
+.portfolio-indivisual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.portfolio-indivisual-link {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 </style>
 
