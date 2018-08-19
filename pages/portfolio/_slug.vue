@@ -26,7 +26,7 @@
             </span>
           </div>
           <div class="column">
-            <h3 class="title is-3">Date</h3>
+            <h3 class="title is-3">Creation Date</h3>
             {{ ( new Date(post.fields.publishDate)).toDateString() }}
           </div>
         </section>
@@ -48,6 +48,18 @@ import {createClient} from '~/plugins/contentful.js'
 const client = createClient();
 
 export default {
+  head () {
+    return {
+      title: `${this.post.fields.title} - Taishi Kato`,
+      meta: [
+        { hid: 'description', name: 'description', content: this.post.fields.body.slice(0, 300) },
+        { hid: 'og:title', name: 'og:title', content: `${this.post.fields.title} - Taishi Kato` },
+        { hid: 'og:type', name: 'og:type', content: 'article' },
+        { hid: 'og:description', name: 'og:description', content: 'Web Developer and Traveler in Tokyo' },
+        { hid: 'og:image', name: 'og:image', content: `${this.post.fields.heroImage.fields.file.url}?w=1000` },
+      ]
+    }
+  },
   asyncData ({ env, params }) {
     return client.getEntries({
       'content_type': env.CTF_BLOG_POST_TYPE_ID,
