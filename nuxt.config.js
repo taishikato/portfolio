@@ -14,11 +14,20 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'portfolio',
+    title: 'Taishi Kato',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'Web Developer and Traveler in Tokyo' },
+      { hid: 'keywords', name: 'keywords', content: 'developer,web,javascript,vue.js,nuxt.js,traveler,travel,adventure,portfolio' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', content: 'Taishi Kato' },
+      { hid: 'og:description', name: 'keywords', content: 'Web Developer and Traveler in Tokyo' },
+      { hid: 'og:image', name: 'og:image', content: 'https://res.cloudinary.com/guidesquare/image/upload/c_crop,h_630,w_1200/v1533914896/Federation_Square_Melbourne_Victoria_Australia_c2xmej.jpg' },
+      { hid: 'og:url', name: 'og:url', content: 'https://taishikato.com/' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Taishi Kato' },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      { hid: '@tsh_kt', name: '@tsh_kt', content: 'twitter:site' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

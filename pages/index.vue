@@ -34,12 +34,11 @@
           </div>
           <h3 class="title is-3" style="text-align: center;">MY WORK</h3>
           <div id="portfolio-list" class="columns">
-            <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap" :style="{backgroundImage: `url('${post.fields.heroImage.fields.file.url}?fit=scale&w=1000')`}">
-              <div class="portfolio-indivisual">
-                <nuxt-link class="portfolio-indivisual-link" :to="`/portfolio/${post.fields.slug}`">
-                  {{ post.fields.title }}
-                </nuxt-link>
-              </div>
+            <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap">
+              <nuxt-link :to="`/portfolio/${post.fields.slug}`">
+                <img :src="post.fields.thumbnail.fields.file.url" width="320"/>
+                <span class="title is-3 portfolio-title">{{ post.fields.title }}</span>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -107,27 +106,70 @@ h3.title {
 .medium-color {
   color: rgba(0,0,0,.84);
 }
-.portfolio-wrap {
+
+
+
+.portfolio-wrap a {
   position: relative;
-  background-position: center;
-  background-size: cover;
+  display: inline-block;
+  /* padding: .9em 3.6em; */
+  border: 2px solid #fff;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  transition: all .3s;
 }
-.portfolio-wrap:before {
-  content:"";
-  display: block;
-  padding-top: 75%;
-}
-.portfolio-indivisual {
+.portfolio-wrap a::before,
+.portfolio-wrap a::after {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  z-index: 2;
+  content: '';
+  transition: all .3s;
 }
-.portfolio-indivisual-link {
-  display: block;
-  width: 100%;
-  height: 100%;
+.portfolio-wrap a::before {
+  border-top: 10px solid #3be5ae;
+  border-bottom: 10px solid #3be5ae;
+  transform: scale(0, 1);
+}
+.portfolio-wrap a::after {
+  border-right: 10px solid #3be5ae;
+  border-left: 10px solid #3be5ae;
+  transform: scale(1, 0);
+}
+.portfolio-wrap a:hover {
+  color: #3be5ae;
+}
+.portfolio-wrap a:hover::after,
+.portfolio-wrap a:hover::before {
+  transform: scale(1);
+}
+
+.portfolio-wrap a:hover img {
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  -ms-filter: "alpha(opacity=20)";
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.portfolio-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  display: none;
+  color: #47cea2;
+}
+.portfolio-wrap a:hover .portfolio-title {
+  display: inline;
 }
 </style>
 
