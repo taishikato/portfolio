@@ -26,7 +26,7 @@
           <h3 class="title is-3" style="text-align: center;">ABOUT ME</h3>
           <div class="columns">
             <div class="column is-4">
-              <img src="/img/profile.jpg" />
+              <img src="/img/profile.jpg" alt="Profile Image" />
             </div>
             <div class="column">
               yeah
@@ -36,7 +36,7 @@
           <div id="portfolio-list" class="columns">
             <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap">
               <nuxt-link :to="`/portfolio/${post.fields.slug}`">
-                <img :src="post.fields.thumbnail.fields.file.url" width="320"/>
+                <img :src="post.fields.thumbnail.fields.file.url" :alt="post.fields.heroImage.fields.description" width="320"/>
                 <span class="title is-3 portfolio-title">{{ post.fields.title }}</span>
               </nuxt-link>
             </div>
