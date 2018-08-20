@@ -11,7 +11,7 @@
                     <stop offset="95%" stop-color="#f1eaea"/>
                   </linearGradient>
                   <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
-                    <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                    <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)">
                       <animateTransform
                           attributeName="transform"
                           begin="0s"
@@ -34,7 +34,7 @@
                     <stop offset="95%" stop-color="#f1eaea"/>
                   </linearGradient>
                   <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
-                    <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                    <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)">
                       <animateTransform
                           attributeName="transform"
                           begin="0s"
@@ -75,7 +75,7 @@
             <div class="column">
               <div class="content">
                 <p>
-                  Hey mate! I am Taishi Kato, a lover of frontend modern technologies👨🏼‍💻<br />
+                  Hi! I am Taishi Kato, a lover of frontend modern technologies👨🏼‍💻<br />
                   Currently i am working for Yahoo! Japan as a Backend Engineer.
                 </p>
                 <p>
