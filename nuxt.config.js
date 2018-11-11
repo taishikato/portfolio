@@ -1,17 +1,37 @@
+const {getConfigForKeys} = require('./lib/config.js')
+const ctfConfig = getConfigForKeys([
+  'CTF_BLOG_POST_TYPE_ID',
+  'CTF_SPACE_ID',
+  'CTF_CDA_ACCESS_TOKEN',
+  'CTF_CMA_ACCESS_TOKEN',
+  'CTF_PERSON_ID'
+]);
+const {createClient} = require('./plugins/contentful')
+const cdaClient = createClient(ctfConfig)
+
 module.exports = {
   /*
   ** Headers of the page
   */
   head: {
-    title: 'portfolio',
+    title: 'Taishi Kato',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'Web Developer and Traveler in Tokyo' },
+      { hid: 'keywords', name: 'keywords', content: 'developer,web,javascript,vue.js,nuxt.js,traveler,travel,adventure,portfolio' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', content: 'Taishi Kato' },
+      { hid: 'og:description', name: 'og:description', content: 'Web Developer and Traveler in Tokyo' },
+      { hid: 'og:image', name: 'og:image', content: 'https://res.cloudinary.com/guidesquare/image/upload/c_crop,h_630,w_1200/v1533914896/Federation_Square_Melbourne_Victoria_Australia_c2xmej.jpg' },
+      { hid: 'og:url', name: 'og:url', content: 'https://taishikato.com/' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Taishi Kato' },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      { hid: '@tsh_kt', name: '@tsh_kt', content: 'twitter:site' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=PT+Sans' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Montserrat:400,600,700' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Titillium+Web:900' }
     ]
   },
@@ -45,6 +65,48 @@ module.exports = {
         })
       }
     }
+  },
+
+  /*
+   ** ᕕ( ᐛ )ᕗ
+   ** Get all portfolio posts from Contentful
+   ** and generate the needed files upfront
+   **
+   ** Included:
+   ** - portfolio posts
+   ** - available portfolio post tags
+   */
+  generate: {
+    routes () {
+      return Promise.all([
+        // get all portfolio posts
+        cdaClient.getEntries({
+          'content_type': ctfConfig.CTF_BLOG_POST_TYPE_ID
+        }),
+        // get the portfolio post content type
+        // cmaClient.getSpace(ctfConfig.CTF_SPACE_ID)
+        //   .then(space => space.getContentType(ctfConfig.CTF_BLOG_POST_TYPE_ID))
+      ])
+      .then(([entries, postType]) => {
+        return [
+          // map entries to URLs
+          ...entries.items.map(entry => `/portfolio/${entry.fields.slug}`),
+          // map all possible tags to URLs
+          // ...postType.fields.find(field => field.id === 'tags').items.validations[0].in.map(tag => `/tags/${tag}`)
+        ]
+      })
+    }
+  },
+
+  /*
+  ** Define environment variables being available
+  ** in generate and browser context
+  */
+  env: {
+    CTF_SPACE_ID: ctfConfig.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: ctfConfig.CTF_CDA_ACCESS_TOKEN,
+    CTF_PERSON_ID: ctfConfig.CTF_PERSON_ID,
+    CTF_BLOG_POST_TYPE_ID: ctfConfig.CTF_BLOG_POST_TYPE_ID
   }
 }
 
