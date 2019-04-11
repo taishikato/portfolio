@@ -112,7 +112,7 @@
             </div>
           </div>
           <h3 class="title is-3" style="text-align: center;">MY WORK</h3>
-          <div id="portfolio-list" class="columns">
+          <div id="portfolio-list" class="columns is-multiline">
             <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap">
               <nuxt-link :to="`/portfolio/${post.fields.slug}`">
                 <img :src="post.fields.thumbnail.fields.file.url" :alt="post.fields.heroImage.fields.description" width="320"/>

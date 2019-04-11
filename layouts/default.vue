@@ -3,7 +3,7 @@
     <nuxt/>
     <footer class="footer">
       <div class="content has-text-centered">
-        @ Taishi Kato
+        <a href="/">@ Taishi Kato</a>
       </div>
     </footer>
   </div>
