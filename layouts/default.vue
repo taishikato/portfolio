@@ -11,7 +11,7 @@
 
 <style>
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: monospace;
 }
 html,.navbar {
   background-color: transparent !important;

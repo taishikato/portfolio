@@ -32,7 +32,7 @@
         </section>
         <section>
           <div class="content">
-            <vue-markdown>{{post.fields.body}}</vue-markdown>
+            <div v-html="$md.render(post.fields.body)"></div>
           </div>
         </section>
       </div>
@@ -42,7 +42,6 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown'
 import {createClient} from '~/plugins/contentful.js'
 
 const client = createClient();
@@ -71,12 +70,16 @@ export default {
     })
     .catch(console.error);
   },
-  components: {
-    VueMarkdown,
+  mounted() {
+    twemoji.parse(document.body);
   }
 }
 </script>
 
-<style scoped>
- 
+<style scoped lang="scss">
+@media screen and (min-width: 1088px) {
+  .container {
+    max-width: 740px;
+  }
+}
 </style>
