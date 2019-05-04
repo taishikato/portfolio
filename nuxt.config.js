@@ -74,7 +74,15 @@ module.exports = {
     '@fortawesome/fontawesome-free-webfonts/css/fa-regular.css',
     '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
   ],
-  modules: ['@nuxtjs/markdownit'],
+  modules: [
+    '@nuxtjs/markdownit',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-27648393-1'
+      }
+    ]
+  ],
   markdownit: {
     injected: true, // $mdを利用してmarkdownをhtmlにレンダリングする
     breaks: true, // 改行コードを<br>に変換する

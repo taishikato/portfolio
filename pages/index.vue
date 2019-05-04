@@ -23,8 +23,8 @@
                     </path>
                   </pattern>
                 </defs>
-                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">DEVELOPER</text>
-                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">DEVELOPER</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">Floating</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">Floating</text>
               </svg>
 
               <svg viewbox="0 0 100 20">
@@ -46,23 +46,23 @@
                     </path>
                   </pattern>
                 </defs>
-                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">TRAVELER</text>
-                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">TRAVELER</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">The World</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">The World</text>
               </svg>
 
             </h1>
-            <h2 class="subtitle title-color">
+            <!-- <h2 class="subtitle title-color">
               TAISHI KATO
-            </h2>
-            <hr>
+            </h2> -->
+            <!-- <hr> -->
           </div>
-          <div class="container">
+          <!-- <div class="container">
             <a href="https://www.linkedin.com/in/takato0903/" target="_blank"><i class="fab fa-linkedin fa-3x fa-fw linkedin-color"></i></a>
             <a href="https://medium.com/@TaishiKato" target="_blank"><i class="fab fa-medium fa-3x fa-fw medium-color"></i></a>
             <a href="https://github.com/taishikato" target="_blank"><i class="fab fa-github fa-3x fa-fw github-color"></i></a>
             <a href="https://twitter.com/taishikat0" target="_blank"><i class="fab fa-twitter fa-3x fa-fw twitter-color"></i></a>
             <a href="https://www.instagram.com/tsh_kt/" target="_blank"><i class="fab fa-instagram fa-3x fa-fw instagram-color"></i></a>
-          </div>
+          </div> -->
         </div>
       </section>
       <section class="section bg-dark">
