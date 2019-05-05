@@ -1,0 +1,22 @@
+.round-image {
+    border-radius: 50%;
+}
+
+.bg-dark {
+    color: white;
+    background-color: #131d27;
+    .title {
+        color: white;
+    }
+}
+
+img.emoji {
+    height: 1.3em;
+    width: 1.3em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+.big-text {
+    font-size: 20px;
+}

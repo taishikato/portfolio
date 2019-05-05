@@ -23,8 +23,8 @@
                     </path>
                   </pattern>
                 </defs>
-                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">DEVELOPER</text>
-                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">DEVELOPER</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">Floating</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">Floating</text>
               </svg>
 
               <svg viewbox="0 0 100 20">
@@ -46,39 +46,42 @@
                     </path>
                   </pattern>
                 </defs>
-                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">TRAVELER</text>
-                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">TRAVELER</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">The World</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.5">The World</text>
               </svg>
 
             </h1>
-            <h2 class="subtitle title-color">
+            <!-- <h2 class="subtitle title-color">
               TAISHI KATO
-            </h2>
-            <hr>
+            </h2> -->
+            <!-- <hr> -->
           </div>
-          <div class="container">
+          <!-- <div class="container">
             <a href="https://www.linkedin.com/in/takato0903/" target="_blank"><i class="fab fa-linkedin fa-3x fa-fw linkedin-color"></i></a>
-            <a href="https://medium.com/@taishi.k" target="_blank"><i class="fab fa-medium fa-3x fa-fw medium-color"></i></a>
+            <a href="https://medium.com/@TaishiKato" target="_blank"><i class="fab fa-medium fa-3x fa-fw medium-color"></i></a>
             <a href="https://github.com/taishikato" target="_blank"><i class="fab fa-github fa-3x fa-fw github-color"></i></a>
-            <a href="https://twitter.com/kanieeast" target="_blank"><i class="fab fa-twitter fa-3x fa-fw twitter-color"></i></a>
+            <a href="https://twitter.com/taishikat0" target="_blank"><i class="fab fa-twitter fa-3x fa-fw twitter-color"></i></a>
             <a href="https://www.instagram.com/tsh_kt/" target="_blank"><i class="fab fa-instagram fa-3x fa-fw instagram-color"></i></a>
-          </div>
+          </div> -->
         </div>
       </section>
-      <section class="section">
+      <section class="section bg-dark">
         <div class="container">
-          <h3 class="title is-3" style="text-align: center;">ABOUT ME</h3>
           <div class="columns">
-            <div class="column is-4">
-              <img src="/img/profile.jpg" alt="Profile Image" />
+            <div class="column has-text-centered">
+              <img src="/img/profile.jpg" alt="Profile Image" width="300px" class="round-image"/>
             </div>
-            <div class="column">
+          </div>
+          <div class="columns">
+            <div class="column has-text-centered">
               <div class="content">
-                <p>
-                  Hi! I am Taishi Kato, a lover of frontend modern technologies👨🏼‍💻<br />
-                  Currently i am working for Yahoo! Japan as a Backend Engineer.
+                <p class="big-text">
+                  ✋ Hi! I am Taishi<br>
+                  🥑 a lover of frontend modern technologies<br>
+                  I used to work for Yahoo! Japan as a Backend Engineer<br>
+                  and currently living in 🍁Vancouver
                 </p>
-                <p>
+                <p class="big-text">
                   I have been creating web apps as my own project because I just love creating something amazing.
                 </p>
               </div>
@@ -111,13 +114,19 @@
               </div>
             </div>
           </div>
-          <h3 class="title is-3" style="text-align: center;">MY WORK</h3>
-          <div id="portfolio-list" class="columns is-multiline">
-            <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap">
-              <nuxt-link :to="`/portfolio/${post.fields.slug}`">
-                <img :src="post.fields.thumbnail.fields.file.url" :alt="post.fields.heroImage.fields.description" width="320"/>
-                <span class="title is-3 portfolio-title">{{ post.fields.title }}</span>
-              </nuxt-link>
+        </div>
+      </section>
+      <section class="section">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <h3 class="title is-3" style="text-align: center;">MY WORK</h3>
+            <div id="portfolio-list" class="columns is-multiline">
+              <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap">
+                <nuxt-link :to="`/portfolio/${post.fields.slug}`">
+                  <img :src="post.fields.thumbnail.fields.file.url" :alt="post.fields.heroImage.fields.description" width="320"/>
+                  <span class="title is-3 portfolio-title">{{ post.fields.title }}</span>
+                </nuxt-link>
+              </div>
             </div>
           </div>
         </div>
@@ -146,6 +155,9 @@ export default {
       }
     }).catch(console.error);
   },
+  mounted() {
+    twemoji.parse(document.body);
+  }
 }
 </script>
 
@@ -256,11 +268,7 @@ h3.title {
   display: inline;
 }
 
-
-
-
-
-body{
+body {
   font-family: 'Cabin Condensed', sans-serif;
 }
 svg{font-weight:bold;max-width:600px;height:auto;color: white;}
