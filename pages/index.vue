@@ -159,6 +159,14 @@
           <div class="column has-text-centered">
             <h3 class="title is-3" style="text-align: center;">MY WORK</h3>
             <div id="portfolio-list" class="columns is-multiline">
+              <div class="column is-4 portfolio-wrap">
+                <a href="https://taishikato.github.io/wp-fb-like-ranking/?ref=taishikato" target="_blank">
+                  <img src="/img/portfolio/wflr.png" width="320"/>
+                  <span class="title is-3 portfolio-title">WordPress Facebook Like Ranking</span>
+                </a>
+              </div>
+            </div>
+            <div id="portfolio-list" class="columns is-multiline">
               <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap">
                 <nuxt-link :to="`/portfolio/${post.fields.slug}`">
                   <img :src="post.fields.thumbnail.fields.file.url" :alt="post.fields.heroImage.fields.description" width="320"/>

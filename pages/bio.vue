@@ -42,6 +42,11 @@
           <div class="columns">
             <div class="column content-box">
               <h2 class="title is-4">🛠 What I've created</h2>
+              2️⃣ <a href="https://taishikato.github.io/wp-fb-like-ranking/?ref=taishikato" target="_blank"><strong>WordPress Facebook Like Ranking</strong></a>
+              <ul>
+                <li>- WordPress Plugin to show a ranking sorted by Facebook like count</li>
+                <li>- 🛠 PHP, WordPress</li>
+              </ul>
               1️⃣ <a href="https://spalist.site/?ref=taishikato" target="_blank"><strong>SPA LIST</strong></a>
               <ul>
                 <li>- 🛠 Stack: Nuxt.js, Firebase Hosting, Firebase Storage, Buefy, Gumroad, Crisp</li>
@@ -84,7 +89,7 @@ export default {
   padding: 20px 0;
   border-top: 1px solid #fff;
   ul {
-    padding: 10px 0 0 30px;
+    padding: 10px 0 20px 30px;
   }
 }
 .paddingTop {
