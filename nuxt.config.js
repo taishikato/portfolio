@@ -79,6 +79,11 @@ module.exports = {
     ],
     '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://taishikato.com',
+    gzip: true
+  },
+
   markdownit: {
     injected: true, // $mdを利用してmarkdownをhtmlにレンダリングする
     breaks: true, // 改行コードを<br>に変換する
