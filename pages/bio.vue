@@ -55,9 +55,11 @@
           </div>
           <div class="columns">
             <div class="column content-box">
-              <p class="paddingTop">🎶 <strong>HIP HOP, Dubstep, Future Bass</strong></p>
+              <p class="paddingTop">🎶 <strong>HIP HOP, Dubstep, Future Bass and Lo-fi HipHop recently!</strong></p>
               <ul>
-                <li>I make Bass Music on my Ableton Live 9. Listen on <a href="https://soundcloud.com/taishikato" target="_blank">SoundCloud</a></li>
+                <li>I make Music on my Ableton Live 9. Listen on <a href="https://soundcloud.com/taishikato" target="_blank">SoundCloud</a>
+                  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/786876459&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </li>
               </ul>
               <p class="paddingTop">✈️ <strong>Travel</strong></p>
               <ul>
