@@ -76,7 +76,8 @@ module.exports = {
       {
         id: 'UA-27648393-1'
       }
-    ]
+    ],
+    '@nuxtjs/sitemap'
   ],
   markdownit: {
     injected: true, // $mdを利用してmarkdownをhtmlにレンダリングする
