@@ -26,7 +26,7 @@
                 I quit my job and moved to Vancouver to find a new Life 😙
               </p>
               <p>
-                I made <a href="https://spalist.site/?ref=taishikato" target="_blank">SPA LIST</a>
+                I made <a href="https://spalist.site/?ref=taishikato" target="_blank">SPA LIST</a>, <a href="https://taishikato.github.io/wp-fb-like-ranking/?ref=taishikato" target="_blank">WordPress Facebook Like Ranking</a>
               </p>
               <p>
                 <div class="container">
