@@ -82,7 +82,7 @@
           <div class="columns">
             <div class="column has-text-centered">
               <a href="https://twitter.com/taishikat0" target="_blank">
-                <img src="/img/profile.jpg" alt="Profile Image" width="300px" class="round-image"/>
+                <img src="/img/profile.webp" alt="Profile Image" width="300px" class="round-image"/>
               </a>
             </div>
           </div>

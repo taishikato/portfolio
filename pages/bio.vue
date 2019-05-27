@@ -15,7 +15,7 @@
           <div class="columns flex-center">
             <div class="column is-4">
               <a href="https://twitter.com/taishikat0" target="_blank">
-                <img src="/img/profile.jpg" alt="Profile Image" width="250px" class="round-image"/>
+                <img src="/img/profile.webp" alt="Profile Image" width="250px" class="round-image"/>
               </a>
             </div>
             <div class="column content">
