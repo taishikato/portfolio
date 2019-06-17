@@ -20,9 +20,10 @@
             <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
             </div>
         </form>
+        🙏 Subscribed: 32
         </div>
         <!--End mc_embed_signup-->
-        <p>🙏Much appreciated if you send me $2 on <a href="https://www.paypal.me/taishikato/2usd" target="_blank">PayPal</a> so I can drink a cup of coffee☕ and create amazingness
+        <p>🙏Much appreciated if you send me $2 on <a href="https://www.paypal.me/taishikato0903/2usd" target="_blank">PayPal</a> so I can drink a cup of coffee☕ and create amazingness
         <br>Follow me on <a href="https://twitter.com/taishikat0" target="_blank">Twitter🐦</a></p>
         <p>This challenge is inspired by <a href="https://www.andreyazimov.com/" target="_blank">Andrey Azimov</a></p>
         <a href="/">@ Taishi Kato</a>
@@ -41,7 +42,8 @@
 <style>
 * {
   /* font-family: Helvetica; */
-  font-family: nunito,roboto,proxima-nova,proxima nova,sans-serif;
+  /* font-family: nunito,roboto,proxima-nova,proxima nova,sans-serif; */
+  font-family: 'Nunito', sans-serif;
 }
 html,.navbar {
   background-color: transparent !important;

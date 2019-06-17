@@ -15,7 +15,7 @@
           <div class="columns flex-center">
             <div class="column is-4">
               <a href="https://twitter.com/taishikat0" target="_blank">
-                <img src="/img/profile.webp" alt="Profile Image" width="250px" class="round-image"/>
+                <img src="/img/profile.jpg" alt="Profile Image" width="250px" class="round-image"/>
               </a>
             </div>
             <div class="column content">
@@ -58,7 +58,7 @@
               <p class="paddingTop">🎶 <strong>HIP HOP, Dubstep, Future Bass and Lo-fi HipHop recently!</strong></p>
               <ul>
                 <li>I make Music on my Ableton Live 9. Listen on <a href="https://soundcloud.com/taishikato" target="_blank">SoundCloud</a>
-                  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/786876459&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/799961187&color=%2300ffa9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </li>
               </ul>
               <p class="paddingTop">✈️ <strong>Travel</strong></p>

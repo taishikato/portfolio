@@ -82,7 +82,7 @@
           <div class="columns">
             <div class="column has-text-centered">
               <a href="https://twitter.com/taishikat0" target="_blank">
-                <img src="/img/profile.webp" alt="Profile Image" width="300px" class="round-image"/>
+                <img src="/img/profile.jpg" alt="Profile Image" width="300px" class="round-image"/>
               </a>
             </div>
           </div>
@@ -102,33 +102,6 @@
                 </p>
                 <p class="big-text">My <n-link to="/bio">Bio 😊</n-link></p>
               </div>
-              <!-- <h4 class="title is-4">Skills</h4>
-              <div class="colums">
-                <div class="column">
-                  Vue.js (Nuxt.js)
-                  <progress class="progress is-primary is-small" value="80" max="100">80%</progress>
-                </div>
-                <div class="column">
-                  Javascript (Node.js)
-                  <progress class="progress is-primary is-small" value="90" max="100">90%</progress>
-                </div>
-                <div class="column">
-                  Firebase
-                  <progress class="progress is-danger is-small" value="80" max="100">80%</progress>
-                </div>
-                <div class="column">
-                  PHP
-                  <progress class="progress is-small" value="90" max="100">90%</progress>
-                </div>
-                <div class="column">
-                  HTML5
-                  <progress class="progress is-info is-small" value="90" max="100">90%</progress>
-                </div>
-                <div class="column">
-                  CSS3
-                  <progress class="progress is-warning is-small" value="80" max="100">80%</progress>
-                </div>
-              </div> -->
 
               <!-- Begin Mailchimp Signup Form -->
               <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -147,6 +120,7 @@
                   <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                   </div>
               </form>
+              🙏 Subscribed: 32
               </div>
               <!--End mc_embed_signup-->
 
@@ -174,6 +148,15 @@
                 </nuxt-link>
               </div>
             </div>
+          </div>
+        </div>
+        <h3 class="title is-3" style="text-align: center;">BLOG</h3>
+        <div class="columns .is-variable is-2">
+          <div class="column">
+            <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fjoined-react-dojo-today-34aa33cebe0c&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="Joined React Dojo today😉" width="400" height="340" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
+          </div>
+          <div class="column">
+            <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fhow-ive-ssr-ogp-image-with-firebase-functions-for-my-spa-app-b74e6778b6ab&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="How I’ve done ssr for ogp image with Firebase Functions for my SPA app" width="400" height="420" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
           </div>
         </div>
       </section>
@@ -210,7 +193,7 @@ export default {
 <style scoped>
 .hero {
   text-align: center;
-  background-image: url('https://res.cloudinary.com/guidesquare/image/upload/e_brightness:-20/v1533914896/Federation_Square_Melbourne_Victoria_Australia_c2xmej.jpg');
+  background-image: url('/img/Federation_Square_Melbourne_Victoria_Australia.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -229,6 +212,7 @@ export default {
 }
 h3.title {
   letter-spacing: 0.2rem;
+  font-weight: 900;
 }
 
 .portfolio-wrap a {

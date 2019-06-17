@@ -52,8 +52,12 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        type: 'text/css',
         href: 'https://fonts.googleapis.com/css?family=Titillium+Web:900'
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Nunito:400,700,900&display=swap'
       }
     ]
   },
