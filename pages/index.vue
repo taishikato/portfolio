@@ -120,7 +120,7 @@
                   <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                   </div>
               </form>
-              🙏 Subscribed: 32
+              🙏 Subscribed: 54
               </div>
               <!--End mc_embed_signup-->
 
@@ -139,6 +139,12 @@
                   <span class="title is-3 portfolio-title">WordPress Facebook Like Ranking</span>
                 </a>
               </div>
+              <div class="column is-4 portfolio-wrap">
+                <a href="https://nomadplacemap.com/?ref=taishikato" target="_blank">
+                  <img src="/img/portfolio/nomadplacemap.png" width="320"/>
+                  <span class="title is-3 portfolio-title">NomadPlaceMap</span>
+                </a>
+              </div>
             </div>
             <div id="portfolio-list" class="columns is-multiline">
               <div v-for="post in posts" :key="post.sys.id" class="column is-4 portfolio-wrap">
@@ -151,7 +157,11 @@
           </div>
         </div>
         <h3 class="title is-3" style="text-align: center;">BLOG</h3>
-        <div class="columns .is-variable is-2">
+        <div class="columns is-variable is-1 is-multiline">
+          <div class="column">
+            <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fquit-job-moved-to-canada-and-hyper-hardcore-year-recurring-revenue-3-000-month-d0d0c0e454aa&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="Quit job, moved to Canada and Hyper Hardcore Year —Recurring Revenue $3,000 / month Challenge
+" width="400" height="480" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
+          </div>
           <div class="column">
             <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fjoined-react-dojo-today-34aa33cebe0c&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="Joined React Dojo today😉" width="400" height="340" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
           </div>

@@ -42,10 +42,15 @@
           <div class="columns">
             <div class="column content-box">
               <h2 class="title is-4">🛠 What I've created</h2>
+              3️⃣ <a href="https://nomadplacemap.com/?ref=taishikato" target="_blank"><strong>NomadPlaceMap</strong></a>
+              <ul>
+                <li>- Crowdsourced map for digital nomads to find a good place to work in the city by digital nomads</li>
+                <li>- 🛠 Stack: Nuxt.js, Firebase, Mapbox, Crisp, Bulma</li>
+              </ul>
               2️⃣ <a href="https://taishikato.github.io/wp-fb-like-ranking/?ref=taishikato" target="_blank"><strong>WordPress Facebook Like Ranking</strong></a>
               <ul>
                 <li>- WordPress Plugin to show a ranking sorted by Facebook like count</li>
-                <li>- 🛠 PHP, WordPress</li>
+                <li>- 🛠 Stack: PHP, WordPress</li>
               </ul>
               1️⃣ <a href="https://spalist.site/?ref=taishikato" target="_blank"><strong>SPA LIST</strong></a>
               <ul>
@@ -57,7 +62,8 @@
             <div class="column content-box">
               <p class="paddingTop">🎶 <strong>HIP HOP, Dubstep, Future Bass and Lo-fi HipHop recently!</strong></p>
               <ul>
-                <li>I make Music on my Ableton Live 9. Listen on <a href="https://soundcloud.com/taishikato" target="_blank">SoundCloud</a>
+                <li>I make Music on my Ableton Live 9.
+                  <p><iframe src="https://open.spotify.com/embed/artist/0nhcYyaHjoLfcoG16MvSCc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
                   <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/799961187&color=%2300ffa9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </li>
               </ul>
