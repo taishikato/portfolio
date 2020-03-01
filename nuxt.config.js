@@ -21,7 +21,7 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: 'Web Developer and Traveler in Tokyo'
+        content: 'Web Developer and Traveler based in Vancouver'
       },
       {
         hid: 'keywords',
@@ -34,7 +34,7 @@ module.exports = {
       {
         hid: 'og:description',
         name: 'og:description',
-        content: 'Web Developer and Traveler in Tokyo'
+        content: 'Web Developer and Traveler based in Vancouver'
       },
       {
         hid: 'og:image',

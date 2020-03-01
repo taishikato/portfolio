@@ -26,9 +26,10 @@
                 I quit my job and moved to Vancouver to find a new Life 😙
               </p>
               <p>
-                I made <a href="https://spalist.site/?ref=taishikato" target="_blank">SPA LIST</a>, <a href="https://taishikato.github.io/wp-fb-like-ranking/?ref=taishikato" target="_blank">WordPress Facebook Like Ranking</a>
+                I made <a href="https://www.producthunt.com/posts/askmakers" target="_blank">AskMakers</a>, <a href="https://360gram.co/" target="_blank">360gram</a>, 
+                <a href="https://www.producthunt.com/posts/pinweb" target="_blank">PinWeb</a>, <a href="https://en-ca.wordpress.org/plugins/wp-facebook-like-ranking/" target="_blank">WordPress Facebook Like Ranking</a>
               </p>
-              <p>
+              <div>
                 <div class="container">
                   <a href="https://www.linkedin.com/in/takato0903/" target="_blank"><i class="fab fa-linkedin fa-3x fa-fw linkedin-color"></i></a>
                   <a href="https://medium.com/@TaishiKato" target="_blank"><i class="fab fa-medium fa-3x fa-fw medium-color"></i></a>
@@ -36,7 +37,7 @@
                   <a href="https://twitter.com/taishikat0" target="_blank"><i class="fab fa-twitter fa-3x fa-fw twitter-color"></i></a>
                   <a href="https://www.instagram.com/tsh_kt/" target="_blank"><i class="fab fa-instagram fa-3x fa-fw instagram-color"></i></a>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
           <div class="columns">
@@ -63,8 +64,9 @@
               <p class="paddingTop">🎶 <strong>HIP HOP, Dubstep, Future Bass and Lo-fi HipHop recently!</strong></p>
               <ul>
                 <li>I make Music on my Ableton Live 9.
-                  <p><iframe src="https://open.spotify.com/embed/artist/0nhcYyaHjoLfcoG16MvSCc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
-                  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/799961187&color=%2300ffa9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                  <p>
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/836321510&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                  </p>
                 </li>
               </ul>
               <p class="paddingTop">✈️ <strong>Travel</strong></p>

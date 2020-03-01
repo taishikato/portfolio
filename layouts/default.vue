@@ -20,7 +20,7 @@
             <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
             </div>
         </form>
-        🙏 Subscribed: 54
+        🙏 Subscribed: 66
         </div>
         <!--End mc_embed_signup-->
         <p>🙏Much appreciated if you send me $2 on <a href="https://www.paypal.me/taishikato0903/2usd" target="_blank">PayPal</a> so I can drink a cup of coffee☕ and create amazingness

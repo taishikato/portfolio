@@ -120,7 +120,7 @@
                   <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                   </div>
               </form>
-              🙏 Subscribed: 54
+              🙏 Subscribed: 66
               </div>
               <!--End mc_embed_signup-->
 
@@ -134,7 +134,19 @@
             <h3 class="title is-3" style="text-align: center;">MY WORK</h3>
             <div id="portfolio-list" class="columns is-multiline">
               <div class="column is-4 portfolio-wrap">
-                <a href="https://taishikato.github.io/wp-fb-like-ranking/?ref=taishikato" target="_blank">
+                <a href="https://www.producthunt.com/posts/pinweb" target="_blank">
+                  <img src="/img/portfolio/pinweb.png" width="320"/>
+                  <span class="title is-3 portfolio-title">PinWeb</span>
+                </a>
+              </div>
+              <div class="column is-4 portfolio-wrap">
+                <a href="https://www.producthunt.com/posts/askmakers" target="_blank">
+                  <img src="/img/portfolio/askmakers.png" width="320"/>
+                  <span class="title is-3 portfolio-title">AskMakers</span>
+                </a>
+              </div>
+              <div class="column is-4 portfolio-wrap">
+                <a href="https://wordpress.org/plugins/wp-facebook-like-ranking/" target="_blank">
                   <img src="/img/portfolio/wflr.png" width="320"/>
                   <span class="title is-3 portfolio-title">WordPress Facebook Like Ranking</span>
                 </a>
@@ -158,14 +170,26 @@
         </div>
         <h3 class="title is-3" style="text-align: center;">BLOG</h3>
         <div class="columns is-variable is-1 is-multiline">
-          <div class="column">
+          <div class="column is-4">
+            <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Frewind-what-i-have-made-since-may-2019-7-products-ce289c64b1be&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="Rewind what I have made since May 2019 (7 products)" width="400" height="400" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
+          </div>
+          <div class="column is-4">
+            <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fi-am-doing-digital-nomad-life-for-2-months-in-southeast-asia-ca7d187e92f7&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="I am doing DIGITAL NOMAD life for 2 months in Southeast Asia🇹🇭🇱🇦🇻🇳👨‍💻👩‍💻" width="400" height="420" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
+          </div>
+          <div class="column is-4">
+            <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Flaunch-askmakers-the-best-place-to-ask-experienced-and-successful-makers-questions-anonymously-bb9764607d9e&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="Launch AskMakers —The best place to ask experienced and successful makers questions anonymously💡" width="400" height="500" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
+          </div>
+          <div class="column is-4">
+            <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fwhat-i-am-working-for-august-2019-5fad0cf462c1&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="What I am working for August 2019" width="400" height="350" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
+          </div>
+          <div class="column is-4">
             <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fquit-job-moved-to-canada-and-hyper-hardcore-year-recurring-revenue-3-000-month-d0d0c0e454aa&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="Quit job, moved to Canada and Hyper Hardcore Year —Recurring Revenue $3,000 / month Challenge
 " width="400" height="480" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
           </div>
-          <div class="column">
+          <div class="column is-4">
             <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fjoined-react-dojo-today-34aa33cebe0c&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="Joined React Dojo today😉" width="400" height="340" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
           </div>
-          <div class="column">
+          <div class="column is-4">
             <iframe src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fhow-ive-ssr-ogp-image-with-firebase-functions-for-my-spa-app-b74e6778b6ab&amp;id=8&amp;collapsed=null" allowtransparency="true" frameborder="0" title="How I’ve done ssr for ogp image with Firebase Functions for my SPA app" width="400" height="420" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;border-radius: 5px;border: 1px solid #eee;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe>
           </div>
         </div>
