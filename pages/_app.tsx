@@ -37,7 +37,7 @@ export default class MyApp extends App {
           <meta
             key="og:image"
             property="og:image"
-            content="https://res.cloudinary.com/guidesquare/image/upload/c_crop,h_630,w_1200/v1533914896/Federation_Square_Melbourne_Victoria_Australia_c2xmej.jpg"
+            content="https://res.cloudinary.com/the360gram/image/upload/v1533914896/Federation_Square_Melbourne_Victoria_Australia_c2xmej.jpg"
           />
           <meta key="twitter:site" property="twitter:site" content="@taishikat0" />
           <meta key="twitter:card" property="twitter:card" content="summary_large_image" />
