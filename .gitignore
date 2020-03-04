@@ -1,13 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
-node_modules
+/node_modules
+/.pnp
+.pnp.js
 
-# logs
-npm-debug.log
+# testing
+/coverage
 
-# Nuxt build
-.nuxt
+# next.js
+/.next/
+/out/
 
-# Nuxt generate
-dist
+# production
+/build
 
-.contentful.json
+# misc
+.DS_Store
+.env*
+/.netlify/
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Netlify folder
+.netlify
