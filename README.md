@@ -3,6 +3,8 @@
 # Portfolio
 My personal portfolio.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/170733da-f3a5-4daf-9e17-09f71fed7dfb/deploy-status)](https://app.netlify.com/sites/taishikato-portfolio/deploys)
+
 <a href="https://nextjs.org/" target="_blank">
   <img alt="nextjs-logo" width="110" src="https://user-images.githubusercontent.com/980588/75617544-6bd84d80-5b15-11ea-906c-26430584fa97.png" />
 </a>
