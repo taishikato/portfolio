@@ -3,16 +3,18 @@
 # Portfolio
 My personal portfolio.
 
-<a href="https://nuxtjs.org/" target="_blank">
-  <img width="150" alt="Nuxt.js" src="https://user-images.githubusercontent.com/980588/75618965-2d00c280-5b2a-11ea-8ab4-9387c22284ed.jpg" />
+<a href="https://nextjs.org/" target="_blank">
+  <img alt="nextjs-logo" width="110" src="https://user-images.githubusercontent.com/980588/75617544-6bd84d80-5b15-11ea-906c-26430584fa97.png" />
 </a>
 
-<a href="https://bulma.io/" target="_blank">
-  <img width="160" alt="Bulma" src="https://user-images.githubusercontent.com/980588/75618707-f7a6a580-5b26-11ea-80a0-96c1df54de8b.png" />
+<a href="https://www.typescriptlang.org/" target="_blank">
+  <img width="50" alt="typeScript" src="https://user-images.githubusercontent.com/980588/75617806-07b78880-5b19-11ea-9eae-b4dc17f3b1c3.png" />
 </a>
-
-<a href="https://www.contentful.com/" target="_blank">
-  <img width="200" src="https://user-images.githubusercontent.com/980588/75618997-9b458500-5b2a-11ea-8071-364374d30c79.png" />
+<a href="https://www.netlify.com/" target="_blank">
+  <img width="110" alt="Netlify" src="https://user-images.githubusercontent.com/980588/75843102-130feb80-5d87-11ea-920d-233ecd825ca1.png" />
+</a>
+<a href="https://tailwindcss.com/" target="_blank">
+  <img width="179" alt="Tailwind CSS" src="https://user-images.githubusercontent.com/980588/75617496-d8068180-5b14-11ea-8ba6-190368e7cf95.png">
 </a>
 <a href="https://mailchimp.com/" target="_blank">
   <img width="150" src="https://user-images.githubusercontent.com/980588/75619016-dfd12080-5b2a-11ea-8543-6220d6b7eeca.png" />
@@ -21,13 +23,11 @@ My personal portfolio.
 
 ## :hammer_and_wrench: Stack
 
-* Nuxt.js
+* Next.js
+* TypeScript
 * Fontawesome
-* Contentful
-  * CMS
-* Firebase
-  * Storage, Hosting
-* Bulma
+* Netlify
+* Tailwind
 * Mailchimp
   * News letter
 
