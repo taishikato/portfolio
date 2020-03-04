@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="text-center bg-gray-100 py-20">
+    <footer className="text-center bg-gray-100 px-3 py-20">
       <Mailchimp />
       <p>
         🙏Much appreciated if you send me $2 on{' '}
