@@ -2,8 +2,7 @@ import React from 'react'
 
 const WhatICreated = () => (
   <div className="content-box">
-    <h2 className="title text-3xl font-extrabold">🛠 What I've created</h2>
-    3️⃣{' '}
+    <h2 className="title text-2xl mb-4 font-extrabold">🛠 What I've created</h2>・{' '}
     <a href="https://nomadplacemap.com/?ref=taishikato" target="_blank">
       <strong>NomadPlaceMap</strong>
     </a>
@@ -11,7 +10,7 @@ const WhatICreated = () => (
       <li>- Crowdsourced map for digital nomads to find a good place to work in the city by digital nomads</li>
       <li>- 🛠 Stack: Nuxt.js, Firebase, Mapbox, Crisp, Bulma</li>
     </ul>
-    2️⃣{' '}
+    ・{' '}
     <a href="https://taishikato.github.io/wp-fb-like-ranking/?ref=taishikato" target="_blank">
       <strong>WordPress Facebook Like Ranking</strong>
     </a>
@@ -19,7 +18,7 @@ const WhatICreated = () => (
       <li>- WordPress Plugin to show a ranking sorted by Facebook like count</li>
       <li>- 🛠 Stack: PHP, WordPress</li>
     </ul>
-    1️⃣{' '}
+    ・{' '}
     <a href="https://spalist.site/?ref=taishikato" target="_blank">
       <strong>SPA LIST</strong>
     </a>

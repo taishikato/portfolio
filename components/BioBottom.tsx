@@ -4,7 +4,7 @@ const BioBottom = () => (
   <div>
     <div className="column content-box">
       <p className="title mb-1">
-        🎶 <strong>HIP HOP, Dubstep, Future Bass and Lo-fi HipHop recently!</strong>
+        🎶 <strong className="title">HIP HOP, Dubstep, Future Bass and Lo-fi HipHop recently!</strong>
       </p>
       <ul>
         <li>
@@ -21,7 +21,7 @@ const BioBottom = () => (
         </li>
       </ul>
       <p className="title mt-5 mb-1">
-        ✈️ <strong>Travel</strong>
+        ✈️ <strong className="title">Travel</strong>
       </p>
       <ul>
         <li>
@@ -30,7 +30,7 @@ const BioBottom = () => (
         </li>
       </ul>
       <p className="title mt-5 mb-1">
-        💼 <strong>Worked Before</strong>
+        💼 <strong className="title">Worked Before</strong>
       </p>
       <ul>
         <li>Yahoo! JAPAN</li>

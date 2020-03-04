@@ -23,19 +23,22 @@ const About = () => {
             <p>I quit my job and moved to Vancouver to find a new Life 😙</p>
             <p>
               I made{' '}
-              <a href="https://www.producthunt.com/posts/askmakers" target="_blank">
+              <a className="text-gray-800 underline" href="https://www.producthunt.com/posts/askmakers" target="_blank">
                 AskMakers
               </a>
               ,{' '}
-              <a href="https://360gram.co/" target="_blank">
+              <a className="text-gray-800 underline" href="https://360gram.co/" target="_blank">
                 360gram
               </a>
               ,{' '}
-              <a href="https://www.producthunt.com/posts/pinweb" target="_blank">
+              <a className="text-gray-800 underline" href="https://www.producthunt.com/posts/pinweb" target="_blank">
                 PinWeb
               </a>
               ,{' '}
-              <a href="https://en-ca.wordpress.org/plugins/wp-facebook-like-ranking/" target="_blank">
+              <a
+                className="text-gray-800 underline"
+                href="https://en-ca.wordpress.org/plugins/wp-facebook-like-ranking/"
+                target="_blank">
                 WordPress Facebook Like Ranking
               </a>
             </p>
