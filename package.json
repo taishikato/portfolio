@@ -8,9 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "autoprefixer": "^9.7.4",
+    "modern-normalize": "^0.6.0",
     "next": "9.2.2",
+    "postcss-import": "^12.0.1",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.7",
+    "@types/react": "^16.9.23",
+    "@zeit/next-css": "^1.0.1",
+    "typescript": "^3.8.3"
   }
 }
