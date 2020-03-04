@@ -24,7 +24,7 @@ const TopMain = () => {
           <p>I quit my job, moved to 🍁Vancouver and now it's time to be an indie maker 😺</p>
           <p>
             My{' '}
-            <Link href="/bio">
+            <Link href="/about">
               <a>Bio 😊</a>
             </Link>
           </p>

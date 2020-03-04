@@ -3,7 +3,7 @@ import Socials from '../components/Socials'
 import WhatICreated from '../components/WhatICreated'
 import BioBottom from '../components/BioBottom'
 
-const Bio = () => {
+const About = () => {
   return (
     <div className="pb-20 mt-3">
       <h1 className="text-4xl text-center title font-black">About Taishi Kato</h1>
@@ -47,4 +47,4 @@ const Bio = () => {
   )
 }
 
-export default Bio
+export default About
