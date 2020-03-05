@@ -9,7 +9,7 @@ const BioBottom = () => (
       <ul>
         <li>
           I make Music on my Ableton Live 9.
-          <p>
+          <p className="mb-2">
             <iframe
               width="100%"
               height="300"
@@ -18,6 +18,13 @@ const BioBottom = () => (
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/836321510&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
           </p>
+          <iframe
+            src="https://open.spotify.com/embed/artist/0nhcYyaHjoLfcoG16MvSCc"
+            width="100%"
+            height="380"
+            frameBorder="0"
+            allowTransparency={true}
+            allow="encrypted-media"></iframe>
         </li>
       </ul>
       <p className="title mt-5 mb-1">
