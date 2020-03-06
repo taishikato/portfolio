@@ -3,7 +3,7 @@ import React from 'react'
 const Oss = () => {
   return (
     <div id="oss" className="m-auto w-10/12 my-10">
-      <h3 className="title font-black text-4xl text-center">OSS Contributes</h3>
+      <h3 className="title font-black text-4xl text-center">OSS Contributions</h3>
       <ul className="mt-3">
         <li className="mb-1 font-bold list-disc">
           <a href="https://github.com/nuxt/docs/pull/1799" target="_blank">
