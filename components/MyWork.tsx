@@ -1,7 +1,7 @@
 import React from 'react'
 
 const MyWork = () => (
-  <div className="py-10">
+  <div id="myWork" className="my-10">
     <h3 className="title font-black text-4xl text-center">MY WORK</h3>
     <div className="flex flex-wrap m-auto w-full md:w-11/12 lg:w-11/12">
       <div className="w-full md:w-4/12 lg:w-4/12 portfolio-wrap flex justify-center py-2">

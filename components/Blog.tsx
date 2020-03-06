@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Blog = () => (
-  <div className="py-10 w-11/12 m-auto">
+  <div id="blog" className="mb-10 w-11/12 m-auto">
     <h3 className="text-4xl text-center title font-black">BLOG</h3>
     <div className="flex flex-wrap">
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
