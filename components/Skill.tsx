@@ -23,6 +23,8 @@ const Skill = () => {
         <li className="mb-1 w-4/12 md:w-2/12 lg:w-2/12 font-bold flex justify-center">Linux</li>
         <li className="mb-1 w-4/12 md:w-2/12 lg:w-2/12 font-bold flex justify-center">Jenkins</li>
         <li className="mb-1 w-4/12 md:w-2/12 lg:w-2/12 font-bold flex justify-center">Git</li>
+        <li className="mb-1 w-4/12 md:w-2/12 lg:w-2/12 font-bold flex justify-center">Vim(I love it)</li>
+        <li className="mb-1 w-4/12 md:w-2/12 lg:w-2/12 font-bold flex justify-center">Tmux</li>
       </ul>
     </div>
   )
