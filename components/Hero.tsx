@@ -9,8 +9,8 @@ const Hero = () => {
             <svg viewBox="0 0 100 20">
               <defs>
                 <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="5%" stop-color="#ffffff" />
-                  <stop offset="95%" stop-color="#f1eaea" />
+                  <stop offset="5%" stopColor="#ffffff" />
+                  <stop offset="95%" stopColor="#f1eaea" />
                 </linearGradient>
                 <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
                   <path
@@ -30,10 +30,10 @@ const Hero = () => {
                   </path>
                 </pattern>
               </defs>
-              <text text-anchor="middle" x="50" y="12" font-size="17" fill="url(#wave)" fill-opacity="1">
+              <text textAnchor="middle" x="50" y="12" fontSize="17" fill="url(#wave)" fillOpacity="1">
                 Hyper
               </text>
-              <text text-anchor="middle" x="50" y="12" font-size="17" fill="url(#gradient)" fill-opacity="0.5">
+              <text textAnchor="middle" x="50" y="12" fontSize="17" fill="url(#gradient)" fillOpacity="0.5">
                 Hyper
               </text>
             </svg>
@@ -41,8 +41,8 @@ const Hero = () => {
             <svg viewBox="0 0 100 20">
               <defs>
                 <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="5%" stop-color="#ffffff" />
-                  <stop offset="95%" stop-color="#f1eaea" />
+                  <stop offset="5%" stopColor="#ffffff" />
+                  <stop offset="95%" stopColor="#f1eaea" />
                 </linearGradient>
                 <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
                   <path
@@ -62,10 +62,10 @@ const Hero = () => {
                   </path>
                 </pattern>
               </defs>
-              <text text-anchor="middle" x="50" y="12" font-size="17" fill="url(#wave)" fill-opacity="1">
+              <text textAnchor="middle" x="50" y="12" fontSize="17" fill="url(#wave)" fillOpacity="1">
                 Hardcore
               </text>
-              <text text-anchor="middle" x="50" y="12" font-size="17" fill="url(#gradient)" fill-opacity="0.5">
+              <text textAnchor="middle" x="50" y="12" fontSize="17" fill="url(#gradient)" fillOpacity="0.5">
                 Hardcore
               </text>
             </svg>
@@ -73,8 +73,8 @@ const Hero = () => {
             <svg viewBox="0 0 100 20">
               <defs>
                 <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="5%" stop-color="#ffffff" />
-                  <stop offset="95%" stop-color="#f1eaea" />
+                  <stop offset="5%" stopColor="#ffffff" />
+                  <stop offset="95%" stopColor="#f1eaea" />
                 </linearGradient>
                 <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
                   <path
@@ -94,10 +94,10 @@ const Hero = () => {
                   </path>
                 </pattern>
               </defs>
-              <text text-anchor="middle" x="50" y="12" font-size="17" fill="url(#wave)" fill-opacity="1">
+              <text textAnchor="middle" x="50" y="12" fontSize="17" fill="url(#wave)" fillOpacity="1">
                 Year
               </text>
-              <text text-anchor="middle" x="50" y="12" font-size="17" fill="url(#gradient)" fill-opacity="0.5">
+              <text textAnchor="middle" x="50" y="12" fontSize="17" fill="url(#gradient)" fillOpacity="0.5">
                 Year
               </text>
             </svg>

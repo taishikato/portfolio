@@ -41,7 +41,14 @@ const Mailchimp = () => {
               <input type="text" name="b_0fe0b2aeb98a80bacf4afde06_34d283ad51" tabIndex={-1} value="" />
             </div>
             <div className="clear">
-              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
+              <input
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                className="button"
+                readOnly
+              />
             </div>
           </div>
         </form>
