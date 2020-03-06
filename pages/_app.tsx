@@ -18,6 +18,7 @@ export default class MyApp extends App {
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>{title}</title>
+          <link rel="icon" href="/favicon.ico" />
           <link
             href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900&display=swap"
             rel="stylesheet"></link>
