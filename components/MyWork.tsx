@@ -20,7 +20,7 @@ const MyWork = () => (
         />
       </div>
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
-        <AnimationBox url="https://www.producthunt.com/posts/pinweb" image="/img/works/pinweb.png" name="PinWeb" />
+        <AnimationBox url="https://github.com/taishikato/PinWeb-API/blob/master/README.md" image="/img/works/pinweb.png" name="PinWeb" />
       </div>
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
         <AnimationBox url="https://airnote.space/" image="/img/works/airnote.png" name="airnote" />
