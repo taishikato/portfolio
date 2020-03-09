@@ -52,7 +52,7 @@ const Mailchimp = () => {
             </div>
           </div>
         </form>
-        🙏 Subscribed: 66
+        🙏 Subscribed: 80
       </div>
       {/* <!--End mc_embed_signup--> */}
       <style jsx>{`
