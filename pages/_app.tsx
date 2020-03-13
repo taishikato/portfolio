@@ -2,11 +2,11 @@ import React from 'react'
 import App from 'next/app'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import withGA from 'next-ga'
+// import 'modern-normalize'
 import '../assets/css/tailwind.css'
 import '../assets/css/main.css'
 
-class MyApp extends App {
+export default class MyApp extends App {
   render() {
     const {Component, pageProps} = this.props
 
@@ -50,5 +50,3 @@ class MyApp extends App {
     )
   }
 }
-
-export default withGA('UA-27648393-1')(MyApp)
