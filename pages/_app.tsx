@@ -2,11 +2,12 @@ import React from 'react'
 import App from 'next/app'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-// import 'modern-normalize'
+import Router from 'next/router'
+import withGA from 'next-ga'
 import '../assets/css/tailwind.css'
 import '../assets/css/main.css'
 
-export default class MyApp extends App {
+class MyApp extends App {
   render() {
     const {Component, pageProps} = this.props
 
@@ -50,3 +51,5 @@ export default class MyApp extends App {
     )
   }
 }
+
+export default withGA('UA-27648393-1', Router)(MyApp)
