@@ -6,6 +6,25 @@ const Blog = () => (
     <div className="flex flex-wrap">
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
         <iframe
+          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fhow-i-published-my-first-npm-package-5388564bf643&amp;id=8&amp;collapsed=null"
+          allowTransparency={true}
+          frameBorder="0"
+          title="Rewind what I have made since May 2019 (7 products)"
+          width="400"
+          height="300"
+          style={{
+            display: 'block',
+            maxWidth: '100%',
+            minWidth: '220px',
+            padding: 0,
+            position: 'static',
+            borderRadius: '5px',
+            border: '1px solid #eee',
+            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
+          }}></iframe>
+      </div>
+      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
+        <iframe
           src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Frewind-what-i-have-made-since-may-2019-7-products-ce289c64b1be&amp;id=8&amp;collapsed=null"
           allowTransparency={true}
           frameBorder="0"
