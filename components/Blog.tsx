@@ -9,9 +9,9 @@ const Blog = () => (
           src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fhow-i-published-my-first-npm-package-5388564bf643&amp;id=8&amp;collapsed=null"
           allowTransparency={true}
           frameBorder="0"
-          title="Rewind what I have made since May 2019 (7 products)"
+          title="How I published my first npm package"
           width="400"
-          height="300"
+          height="360"
           style={{
             display: 'block',
             maxWidth: '100%',
