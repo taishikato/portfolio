@@ -7,6 +7,13 @@ const MyWork = () => (
     <div className="flex flex-wrap m-auto w-full md:w-11/12 lg:w-11/12">
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
         <AnimationBox
+          url="https://www.npmjs.com/package/@taishikato/slug-generator"
+          image="/img/works/@taishikato-slug-generator.png"
+          name="@taishikato/slug-generator"
+        />
+      </div>
+      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+        <AnimationBox
           url="https://github.com/taishikato/AskMakers/blob/master/README.md"
           image="/img/works/askmakers.gif"
           name="AskMakers"
@@ -20,7 +27,11 @@ const MyWork = () => (
         />
       </div>
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
-        <AnimationBox url="https://github.com/taishikato/PinWeb-API/blob/master/README.md" image="/img/works/pinweb.png" name="PinWeb" />
+        <AnimationBox
+          url="https://github.com/taishikato/PinWeb-API/blob/master/README.md"
+          image="/img/works/pinweb.png"
+          name="PinWeb"
+        />
       </div>
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
         <AnimationBox url="https://airnote.space/" image="/img/works/airnote.png" name="airnote" />

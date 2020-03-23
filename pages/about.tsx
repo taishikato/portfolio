@@ -23,16 +23,25 @@ const About = () => {
             <p>I quit my job and moved to Vancouver to find a new Life 😙</p>
             <p>
               I made{' '}
-              <a className="text-gray-800 underline" href="https://www.producthunt.com/posts/askmakers" target="_blank">
+              <a
+                className="text-gray-800 underline"
+                href="https://github.com/taishikato/AskMakers/blob/master/README.md"
+                target="_blank">
                 AskMakers
               </a>
               ,{' '}
-              <a className="text-gray-800 underline" href="https://360gram.co/" target="_blank">
-                360gram
+              <a
+                className="text-gray-800 underline"
+                href="https://www.npmjs.com/package/@taishikato/slug-generator"
+                target="_blank">
+                @taishikato/slug-generator
               </a>
               ,{' '}
-              <a className="text-gray-800 underline" href="https://www.producthunt.com/posts/pinweb" target="_blank">
-                PinWeb
+              <a
+                className="text-gray-800 underline"
+                href="https://github.com/taishikato/360gram/blob/master/README.md"
+                target="_blank">
+                360gram
               </a>
               ,{' '}
               <a
@@ -47,9 +56,9 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-11/12 md:w-8/12 lg:w-8/12 border-t border-gray-400 pt-5 m-auto">
+        {/* <div className="w-11/12 md:w-8/12 lg:w-8/12 border-t border-gray-400 pt-5 m-auto">
           <WhatICreated />
-        </div>
+        </div> */}
         <div className="w-11/12 md:w-8/12 lg:w-8/12 border-t border-gray-400 pt-5 m-auto">
           <BioBottom />
         </div>
