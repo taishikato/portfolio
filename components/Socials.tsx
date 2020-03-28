@@ -16,7 +16,7 @@ const Socials = () => (
     <a href="https://twitter.com/taishikat0" target="_blank" className="twitter px-2">
       <FontAwesomeIcon icon={faTwitter} size="xs" className="h-12 w-12" />
     </a>
-    <a href="https://www.instagram.com/tsh_kt/" target="_blank" className="instagram px-2">
+    <a href="https://www.instagram.com/taishikat0/" target="_blank" className="instagram px-2">
       <FontAwesomeIcon icon={faInstagram} size="xs" className="h-12 w-12" />
     </a>
     <style jsx>{`
