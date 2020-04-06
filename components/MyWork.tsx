@@ -45,7 +45,7 @@ const MyWork = () => (
       </div>
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
         <AnimationBox
-          url="https://nomadplacemap.com/?ref=taishikato"
+          url="https://github.com/taishikato/NomadPlaceMap/blob/master/README.md"
           image="/img/works/nomadplacemap.png"
           name="NomadPlaceMap"
         />
