@@ -1,6 +1,6 @@
 import React from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faLinkedin, faMedium, faGithub, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faMedium, faDev, faGithub, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 const Socials = () => (
   <>
@@ -9,6 +9,9 @@ const Socials = () => (
     </a>
     <a href="https://medium.com/@TaishiKato" target="_blank" className="medium px-2">
       <FontAwesomeIcon icon={faMedium} size="xs" className="h-12 w-12" />
+    </a>
+    <a href="https://dev.to/taishi" target="_blank" className="medium px-2">
+      <FontAwesomeIcon icon={faDev} size="xs" className="h-12 w-12" />
     </a>
     <a href="https://github.com/taishikato" target="_blank" className="github px-2">
       <FontAwesomeIcon icon={faGithub} size="xs" className="h-12 w-12" />
