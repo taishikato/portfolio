@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 import Mailchimp from './Mailchimp'
+import Socials from './Socials'
 
 const TopMain = () => {
   return (
-    <section className="text-center bg-black text-white py-8">
+    <section className="text-center bg-blue-900 text-white py-8">
       <div className="w-11/12 m-auto">
         <div>
           <a href="https://twitter.com/taishikat0" target="_blank">
@@ -28,6 +29,9 @@ const TopMain = () => {
               <a>Bio 😊</a>
             </Link>
           </p>
+        </div>
+        <div className="mt-2 flex flex-wrap justify-center">
+          <Socials />
         </div>
         <Mailchimp />
       </div>
