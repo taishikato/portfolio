@@ -7,6 +7,13 @@ const MyWork = () => (
     <div className="flex flex-wrap m-auto w-full md:w-11/12 lg:w-11/12">
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
         <AnimationBox
+          url="https://www.producthunt.com/posts/askmakers-2-0"
+          image="/img/works/askmakers2.gif"
+          name="AskMakers 2.0"
+        />
+      </div>
+      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+        <AnimationBox
           url="https://www.npmjs.com/package/@taishikato/slug-generator"
           image="/img/works/@taishikato-slug-generator.png"
           name="@taishikato/slug-generator"
