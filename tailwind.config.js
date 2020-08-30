@@ -5,10 +5,13 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   theme: {},
   variants: {},
   plugins: [
-    function({addComponents}) {
+    function ({addComponents}) {
       addComponents({
         '.container': {
           maxWidth: '100%',
