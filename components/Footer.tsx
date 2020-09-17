@@ -15,7 +15,7 @@ const Footer = () => {
         so I can drink a cup of coffee☕ and create amazingness
         <br />
         Follow me on{' '}
-        <a href="https://twitter.com/taishikat0" target="_blank">
+        <a href="https://twitter.com/ProductHance" target="_blank">
           Twitter🐦
         </a>
       </p>

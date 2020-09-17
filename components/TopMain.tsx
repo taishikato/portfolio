@@ -8,7 +8,7 @@ const TopMain = () => {
     <section className="text-center bg-blue-900 text-white py-8">
       <div className="w-11/12 m-auto">
         <div>
-          <a href="https://twitter.com/taishikat0" target="_blank">
+          <a href="https://twitter.com/ProductHance" target="_blank">
             <img src="/img/profile.jpg" alt="Profile Image" width="300px" className="rounded-full m-auto" />
           </a>
         </div>
@@ -22,7 +22,11 @@ const TopMain = () => {
             <br />
           </p>
           <p>⚡️My goal: I will release apps and earn $3,000 / month</p>
-          <p>I quit my job, moved to 🍁Vancouver,<br />doing indie hacking and also looking for next full-time adventure (job) 😺</p>
+          <p>
+            I quit my job, moved to 🍁Vancouver,
+            <br />
+            doing indie hacking and also looking for next full-time adventure (job) 😺
+          </p>
           <p>
             My{' '}
             <Link href="/about">
