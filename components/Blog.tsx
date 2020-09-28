@@ -6,6 +6,25 @@ const Blog = () => (
     <div className="flex flex-wrap">
       <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
         <iframe
+          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fstep-by-step-how-to-implement-dark-mode-with-tailwind-css-on-react-8d7e1667b3db&amp;id=8&amp;collapsed=null"
+          allowTransparency={true}
+          frameBorder="0"
+          title="【Step by Step】How to implement Dark Mode with Tailwind CSS on React"
+          width="400"
+          height="400"
+          style={{
+            display: 'block',
+            maxWidth: '100%',
+            minWidth: '220px',
+            padding: 0,
+            position: 'static',
+            borderRadius: '5px',
+            border: '1px solid #eee',
+            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
+          }}></iframe>
+      </div>
+      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
+        <iframe
           src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fhow-does-optional-chaining-make-react-app-development-easier-2423004197b6&amp;id=8&amp;collapsed=null"
           allowTransparency={true}
           frameBorder="0"
