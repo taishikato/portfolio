@@ -9,7 +9,13 @@ const TopMain = () => {
       <div className="w-11/12 m-auto">
         <div>
           <a href="https://twitter.com/ProductHance" target="_blank">
-            <img src="/img/profile.jpg" alt="Profile Image" width="300px" className="rounded-full m-auto" />
+            <img
+              src="/img/profile.jpg"
+              alt="Profile Image"
+              width="300px"
+              className="rounded-full m-auto"
+              loading="lazy"
+            />
           </a>
         </div>
         <div className="mt-3 text-xl">

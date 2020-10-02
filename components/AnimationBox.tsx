@@ -5,7 +5,7 @@ const AnimationBox: NextPage<IProps> = props => {
   return (
     <div className="portfolio-wrap">
       <a href={props.url} target="_blank">
-        <img src={props.image} width="320" />
+        <img src={props.image} width="320" loading="lazy" />
         <span className="text-3xl portfolio-title font-semibold">{props.name}</span>
       </a>
       <style jsx>{`
