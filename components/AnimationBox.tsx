@@ -1,12 +1,15 @@
-import React from 'react'
-import {NextPage} from 'next'
+import React, {FC} from 'react'
 
-const AnimationBox: NextPage<IProps> = props => {
+const AnimationBox: FC<IProps> = ({image, name, url, webpImage}) => {
   return (
     <div className="portfolio-wrap">
-      <a href={props.url} target="_blank">
-        <img src={props.image} width="320" loading="lazy" />
-        <span className="text-3xl portfolio-title font-semibold">{props.name}</span>
+      <a href={url} target="_blank">
+        <picture>
+          <source srcSet={webpImage} type="image/webp" />
+          <source srcSet={image} type="image/jpeg" />
+          <img src={image} loading="lazy" width="320" />
+        </picture>
+        <span className="text-3xl portfolio-title font-semibold">{name}</span>
       </a>
       <style jsx>{`
         .portfolio-wrap a {
@@ -77,9 +80,10 @@ const AnimationBox: NextPage<IProps> = props => {
 }
 
 interface IProps {
-  url: string
   image: string
   name: string
+  url: string
+  webpImage: string
 }
 
 export default AnimationBox
