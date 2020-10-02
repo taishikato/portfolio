@@ -7,8 +7,10 @@
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
   theme: {},
+  purge: ['./pages/**/*.tsx', './components/**/*tsx'],
   variants: {},
   plugins: [
     function ({addComponents}) {
