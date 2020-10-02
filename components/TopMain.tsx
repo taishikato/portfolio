@@ -9,13 +9,17 @@ const TopMain = () => {
       <div className="w-11/12 m-auto">
         <div>
           <a href="https://twitter.com/ProductHance" target="_blank">
-            <img
-              src="/img/profile.jpg"
-              alt="Profile Image"
-              width="300px"
-              className="rounded-full m-auto"
-              loading="lazy"
-            />
+            <picture>
+              <source srcSet="/img/profile.webp" type="image/webp" />
+              <source srcSet="/img/profile.jpg" type="image/jpeg" />
+              <img
+                src="/img/profile.jpg"
+                loading="lazy"
+                width="300"
+                className="rounded-full m-auto"
+                alt="Profile Image"
+              />
+            </picture>
           </a>
         </div>
         <div className="mt-3 text-xl">
