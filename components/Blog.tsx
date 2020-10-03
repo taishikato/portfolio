@@ -1,258 +1,74 @@
-import React from 'react'
+import React, {FC} from 'react'
 
-const Blog = () => (
+interface IPost {
+  categories: string[]
+  link: string
+  pubDate: string
+  thumbnail: string
+  title: string
+}
+
+interface IProps {
+  posts: IPost[]
+}
+
+const Blog: FC<IProps> = ({posts}) => (
   <div id="blog" className="mb-10 w-11/12 m-auto">
     <h3 className="text-4xl text-center title font-black">BLOG</h3>
-    <div className="flex flex-wrap">
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fstep-by-step-how-to-implement-dark-mode-with-tailwind-css-on-react-8d7e1667b3db&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="【Step by Step】How to implement Dark Mode with Tailwind CSS on React"
-          width="400"
-          height="400"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
+    <div className="text-center text-lg font-semibold">My last 10 posts</div>
+    <section className="text-gray-700">
+      <div className="container p-5 mx-auto">
+        <div className="flex flex-wrap -m-4">
+          {posts.map(post => (
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a className="block h-48 rounded overflow-hidden hover:opacity-75" href={post.link} target="_blank">
+                <img
+                  alt={post.title}
+                  className="object-cover object-center w-full h-full block"
+                  src={post.thumbnail}
+                  loading="lazy"
+                />
+              </a>
+              <div className="mt-4">
+                <div className="text-gray-500 text-xs tracking-widest mb-1">
+                  {post.categories.join(', ').toUpperCase()}
+                </div>
+                <div className="text-lg font-medium">
+                  <a className="text-gray-900" href={post.link} target="_blank">
+                    {post.title}
+                  </a>
+                </div>
+                <p className="mt-1">{post.pubDate.split(' ')[0]}</p>
+              </div>
+            </div>
+          ))}
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a
+              className="block h-48 rounded overflow-hidden hover:opacity-75"
+              href="https://medium.com/@TaishiKato"
+              target="_blank">
+              <picture>
+                <source srcSet="/img/moreposts.webp" type="image/webp" />
+                <source srcSet="/img/moreposts.png" type="image/jpeg" />
+                <img
+                  alt="More posts on Medium"
+                  className="object-cover object-center w-full h-full block"
+                  loading="lazy"
+                  src="/img/moreposts.png"
+                />
+              </picture>
+            </a>
+            <div className="mt-4">
+              <div className="text-lg font-medium">
+                <a className="text-gray-900" href="https://medium.com/@TaishiKato" target="_blank">
+                  Check out more posts on Medium…!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fhow-does-optional-chaining-make-react-app-development-easier-2423004197b6&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="Experimenting a virtual co-working concept on Pragli"
-          width="400"
-          height="420"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fexperimenting-a-virtual-co-working-concept-on-pragli-1364f99c059&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="Experimenting a virtual co-working concept on Pragli"
-          width="400"
-          height="360"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Ffinally-announcing-the-official-launch-of-askmakers-v2-0-377c3da5a7e1&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="【Finally…】Announcing the Official Launch of AskMakers v2.0"
-          width="400"
-          height="400"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fmake-your-npm-package-for-typescript-242e79282423&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="Make your npm package conformable to TypeScript"
-          width="400"
-          height="360"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fhow-i-published-my-first-npm-package-5388564bf643&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="How I published my first npm package"
-          width="400"
-          height="360"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Frewind-what-i-have-made-since-may-2019-7-products-ce289c64b1be&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="Rewind what I have made since May 2019 (7 products)"
-          width="400"
-          height="400"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fi-am-doing-digital-nomad-life-for-2-months-in-southeast-asia-ca7d187e92f7&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="I am doing DIGITAL NOMAD life for 2 months in Southeast Asia🇹🇭🇱🇦🇻🇳👨‍💻👩‍💻"
-          width="400"
-          height="420"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Flaunch-askmakers-the-best-place-to-ask-experienced-and-successful-makers-questions-anonymously-bb9764607d9e&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="Launch AskMakers —The best place to ask experienced and successful makers questions anonymously💡"
-          width="400"
-          height="500"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fwhat-i-am-working-for-august-2019-5fad0cf462c1&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="What I am working for August 2019"
-          width="400"
-          height="350"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fquit-job-moved-to-canada-and-hyper-hardcore-year-recurring-revenue-3-000-month-d0d0c0e454aa&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="Quit job, moved to Canada and Hyper Hardcore Year —Recurring Revenue $3,000 / month Challenge
-"
-          width="400"
-          height="480"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fjoined-react-dojo-today-34aa33cebe0c&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="Joined React Dojo today😉"
-          width="400"
-          height="340"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-3">
-        <iframe
-          src="https://api.medium.com/embed?type=story&amp;path=%2F%40TaishiKato%2Fhow-ive-ssr-ogp-image-with-firebase-functions-for-my-spa-app-b74e6778b6ab&amp;id=8&amp;collapsed=null"
-          allowTransparency={true}
-          frameBorder="0"
-          title="How I’ve done ssr for ogp image with Firebase Functions for my SPA app"
-          width="400"
-          height="420"
-          style={{
-            display: 'block',
-            maxWidth: '100%',
-            minWidth: '220px',
-            padding: 0,
-            position: 'static',
-            borderRadius: '5px',
-            border: '1px solid #eee',
-            boxShadow: 'rgba(0, 0, 0, 0.15) 0px 1px 3px',
-          }}></iframe>
-      </div>
-    </div>
+    </section>
   </div>
 )
 
