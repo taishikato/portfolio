@@ -3,9 +3,17 @@ import AnimationBox from './AnimationBox'
 
 const MyWork = () => (
   <div id="myWork" className="my-10">
-    <h3 className="title font-black text-4xl text-center">MY WORK</h3>
-    <div className="flex flex-wrap m-auto w-full md:w-11/12 lg:w-11/12">
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+    <h3 className="text-4xl font-black text-center title">MY WORK</h3>
+    <div className="flex flex-wrap w-full m-auto md:w-11/12 lg:w-11/12">
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
+        <AnimationBox
+          url="https://opensea.io/collection/taishi-face-transition-in-southeast-asia"
+          image="/img/works/nft-selfie.png"
+          webpImage="/img/works/nft-selfie.webp"
+          name="My selfie NFT collection"
+        />
+      </div>
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
         <AnimationBox
           url="https://www.producthunt.com/posts/askmakers-2-0"
           image="/img/works/askmakers2.gif"
@@ -13,7 +21,7 @@ const MyWork = () => (
           name="AskMakers 2.0"
         />
       </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
         <AnimationBox
           url="https://www.npmjs.com/package/@taishikato/slug-generator"
           image="/img/works/@taishikato-slug-generator.png"
@@ -21,7 +29,7 @@ const MyWork = () => (
           name="@taishikato/slug-generator"
         />
       </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
         <AnimationBox
           url="https://github.com/taishikato/AskMakers/blob/master/README.md"
           image="/img/works/askmakers.gif"
@@ -29,7 +37,7 @@ const MyWork = () => (
           name="AskMakers"
         />
       </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
         <AnimationBox
           url="https://github.com/taishikato/360gram/blob/master/README.md"
           image="/img/works/360gram.png"
@@ -37,7 +45,7 @@ const MyWork = () => (
           name="360gram"
         />
       </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
         <AnimationBox
           url="https://github.com/taishikato/PinWeb-API/blob/master/README.md"
           image="/img/works/pinweb.png"
@@ -45,7 +53,7 @@ const MyWork = () => (
           name="PinWeb"
         />
       </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
         <AnimationBox
           url="https://airnote.space/"
           image="/img/works/airnote.png"
@@ -53,7 +61,7 @@ const MyWork = () => (
           webpImage="/img/works/airnote.webp"
         />
       </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
         <AnimationBox
           url="https://wordpress.org/plugins/wp-facebook-like-ranking/"
           image="/img/works/wflr.png"
@@ -61,7 +69,7 @@ const MyWork = () => (
           webpImage="/img/works/wflr.webp"
         />
       </div>
-      <div className="w-full md:w-4/12 lg:w-4/12 flex justify-center py-2">
+      <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">
         <AnimationBox
           url="https://github.com/taishikato/NomadPlaceMap/blob/master/README.md"
           image="/img/works/nomadplacemap.png"
