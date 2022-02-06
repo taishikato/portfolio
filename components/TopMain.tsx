@@ -5,7 +5,7 @@ import Socials from './Socials'
 
 const TopMain = () => {
   return (
-    <section className="text-center bg-blue-900 text-white py-8">
+    <section className="py-8 text-center text-white bg-cyan-900">
       <div className="w-11/12 m-auto">
         <div>
           <a href="https://twitter.com/ProductHance" target="_blank">
@@ -16,7 +16,7 @@ const TopMain = () => {
                 src="/img/profile.jpg"
                 loading="lazy"
                 width="300"
-                className="rounded-full m-auto"
+                className="m-auto rounded-full"
                 alt="Profile Image"
               />
             </picture>
@@ -44,7 +44,7 @@ const TopMain = () => {
             </Link>
           </p>
         </div>
-        <div className="mt-2 flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center mt-2">
           <Socials />
         </div>
         <Mailchimp />
