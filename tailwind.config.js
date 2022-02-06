@@ -5,13 +5,8 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   theme: {},
-  purge: ['./pages/**/*.tsx', './components/**/*tsx'],
-  variants: {},
+  content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
   plugins: [
     function ({addComponents}) {
       addComponents({
