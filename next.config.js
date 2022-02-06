@@ -1,6 +1,4 @@
-const withCSS = require('@zeit/next-css')
-
-module.exports = withCSS({
+module.exports = {
   trailingSlash: true,
   exportPathMap: () => {
     return {
@@ -8,4 +6,4 @@ module.exports = withCSS({
       '/about': {page: '/about'},
     }
   },
-})
+}
