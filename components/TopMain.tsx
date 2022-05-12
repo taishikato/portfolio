@@ -35,7 +35,7 @@ const TopMain = () => {
           <p>
             I quit my job, moved to 🍁Vancouver,
             <br />
-            doing indie hacking and also looking for next full-time adventure (job) 😺
+            doing indie hacking while working as a full-time dev.
           </p>
           <p>
             My{' '}
