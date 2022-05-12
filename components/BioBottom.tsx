@@ -3,12 +3,12 @@ import React from 'react'
 const BioBottom = () => (
   <div>
     <div className="column content-box">
-      <p className="title mb-1">
-        🎶 <strong className="title">HIP HOP, Dubstep, Future Bass and Lo-fi HipHop recently!</strong>
+      <p className="mb-1 title">
+        🎶 <strong className="title">Dubstep, Future Garage, Future Bass and Lo-fi HipHop recently!</strong>
       </p>
       <ul>
         <li>
-          I make Music on my Ableton Live 9.
+          I make Music on my Ableton Live 10.
           <p className="mb-2">
             <iframe
               width="100%"
@@ -27,7 +27,7 @@ const BioBottom = () => (
             allow="encrypted-media"></iframe>
         </li>
       </ul>
-      <p className="title mt-5 mb-1">
+      <p className="mt-5 mb-1 title">
         ✈️ <strong className="title">Travel</strong>
       </p>
       <ul>
@@ -36,7 +36,7 @@ const BioBottom = () => (
           Indonesia, Korea, Australia
         </li>
       </ul>
-      <p className="title mt-5 mb-1">
+      <p className="mt-5 mb-1 title">
         💼 <strong className="title">Worked Before</strong>
       </p>
       <ul>
