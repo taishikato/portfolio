@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="text-center bg-gray-100 px-3 py-20">
+    <footer className="px-3 py-20 text-center bg-gray-100">
       <Mailchimp />
       <p>
         🙏Much appreciated if you send me $2 on{' '}
@@ -15,7 +15,7 @@ const Footer = () => {
         so I can drink a cup of coffee☕ and create amazingness
         <br />
         Follow me on{' '}
-        <a href="https://twitter.com/ProductHance" target="_blank">
+        <a href="https://twitter.com/taishik_" target="_blank">
           Twitter🐦
         </a>
       </p>
@@ -28,7 +28,7 @@ const Footer = () => {
       <Link href="/">
         <a>taishikato.com</a>
       </Link>
-      <div className="mt-2 flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center mt-2">
         <Socials />
       </div>
     </footer>
