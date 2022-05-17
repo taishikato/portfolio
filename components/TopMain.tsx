@@ -5,7 +5,7 @@ import Socials from './Socials'
 
 const TopMain = () => {
   return (
-    <section className="py-8 text-center text-white bg-cyan-900">
+    <section className="py-8 text-center text-white bg-slate-800">
       <div className="w-11/12 m-auto">
         <div>
           <a href="https://twitter.com/taishik_" target="_blank">

@@ -11,7 +11,7 @@ const About = () => {
         <meta key="og:url" property="og:url" content={url} />
         <link key="canonical" rel="canonical" href={url} />
       </Head>
-      <div className="pb-20 mt-3">
+      <div className="pt-3 pb-20 bg-slate-50">
         <h1 className="text-4xl font-black text-center title">About Taishi Kato</h1>
         <div className="flex flex-wrap items-center w-11/12 m-auto mt-16 mb-10 md:w-8/12 lg:w-8/12">
           <div className="w-full mb-2 md:w-4/12 lg:w-4/12 md:mb-0 lg:mb-0">
