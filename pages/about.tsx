@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import Socials from '../components/Socials'
-import WhatICreated from '../components/WhatICreated'
 import BioBottom from '../components/BioBottom'
 
 const About = () => {
@@ -13,10 +12,10 @@ const About = () => {
         <link key="canonical" rel="canonical" href={url} />
       </Head>
       <div className="pb-20 mt-3">
-        <h1 className="text-4xl text-center title font-black">About Taishi Kato</h1>
-        <div className="flex flex-wrap items-center m-auto mt-16 mb-10 w-11/12 md:w-8/12 lg:w-8/12">
-          <div className="w-full md:w-4/12 lg:w-4/12 mb-2 md:mb-0 lg:mb-0">
-            <img src="/img/profile.jpg" className="rounded-full m-auto md:m-0 lg:m-0" width="250px" />
+        <h1 className="text-4xl font-black text-center title">About Taishi Kato</h1>
+        <div className="flex flex-wrap items-center w-11/12 m-auto mt-16 mb-10 md:w-8/12 lg:w-8/12">
+          <div className="w-full mb-2 md:w-4/12 lg:w-4/12 md:mb-0 lg:mb-0">
+            <img src="/img/profile.jpg" className="m-auto rounded-full md:m-0 lg:m-0" width="250px" />
           </div>
           <div className="w-full md:w-8/12 lg:w-8/12">
             <p>👋 Hi, I am Taishi, an Indie Maker & currently living in Vancouver 🍁</p>
@@ -56,10 +55,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* <div className="w-11/12 md:w-8/12 lg:w-8/12 border-t border-gray-400 pt-5 m-auto">
-          <WhatICreated />
-        </div> */}
-        <div className="w-11/12 md:w-8/12 lg:w-8/12 border-t border-gray-400 pt-5 m-auto">
+        <div className="w-11/12 pt-5 m-auto border-t border-gray-400 md:w-8/12 lg:w-8/12">
           <BioBottom />
         </div>
       </div>
