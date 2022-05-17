@@ -8,7 +8,7 @@ const TopMain = () => {
     <section className="py-8 text-center text-white bg-cyan-900">
       <div className="w-11/12 m-auto">
         <div>
-          <a href="https://twitter.com/ProductHance" target="_blank">
+          <a href="https://twitter.com/taishik_" target="_blank">
             <picture>
               <source srcSet="/img/profile.webp" type="image/webp" />
               <source srcSet="/img/profile.jpg" type="image/jpeg" />
