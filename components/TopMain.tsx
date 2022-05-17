@@ -16,8 +16,8 @@ const TopMain = () => {
                 src="/img/profile.jpg"
                 loading="lazy"
                 width="300"
-                className="m-auto rounded-full"
                 alt="Profile Image"
+                className="m-auto rounded-full bg-gradient-to-r p-[6px] from-[#fe0000] via-[#3B82F6] to-[#9333EA]"
               />
             </picture>
           </a>

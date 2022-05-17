@@ -15,7 +15,11 @@ const About = () => {
         <h1 className="text-4xl font-black text-center title">About Taishi Kato</h1>
         <div className="flex flex-wrap items-center w-11/12 m-auto mt-16 mb-10 md:w-8/12 lg:w-8/12">
           <div className="w-full mb-2 md:w-4/12 lg:w-4/12 md:mb-0 lg:mb-0">
-            <img src="/img/profile.jpg" className="m-auto rounded-full md:m-0 lg:m-0" width="250px" />
+            <img
+              src="/img/profile.jpg"
+              className="m-auto rounded-full md:m-0 lg:m-0 bg-gradient-to-r p-[6px] from-[#fe0000] via-[#3B82F6] to-[#9333EA]"
+              width="250px"
+            />
           </div>
           <div className="w-full md:w-8/12 lg:w-8/12">
             <p>👋 Hi, I am Taishi, an Indie Maker & currently living in Vancouver 🍁</p>
