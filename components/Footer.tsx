@@ -1,13 +1,13 @@
 import React from 'react'
-import Mailchimp from './Mailchimp'
+import NewsLetter from './NewsLetter'
 import Socials from './Socials'
 import Link from 'next/link'
 
 const Footer = () => {
   return (
     <footer className="px-3 py-20 text-center bg-gray-100">
-      <Mailchimp />
-      <p>
+      <NewsLetter />
+      <p className="mt-4">
         🙏Much appreciated if you send me $2 on{' '}
         <a href="https://www.paypal.me/taishikato0903/2usd" target="_blank">
           PayPal

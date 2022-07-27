@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Mailchimp from './Mailchimp'
+import NewsLetter from './NewsLetter'
 import Socials from './Socials'
 
 const TopMain = () => {
@@ -47,7 +47,9 @@ const TopMain = () => {
         <div className="flex flex-wrap justify-center mt-2">
           <Socials />
         </div>
-        <Mailchimp />
+        <div className="mt-4">
+          <NewsLetter />
+        </div>
       </div>
     </section>
   )
