@@ -1,6 +1,6 @@
 const NewsLetter = () => (
   <>
-    <p className="text-2xl">Wanna know if my journey?</p>
+    <p className="text-base">Get notified when I release new stuff.</p>
     <p>🙏 Subscribed: 84</p>
     <div id="revue-embed bg-slate-300" className="p-3 mx-auto rounded-md bg-slate-300 md:w-96 w-[90%] text-slate-700">
       <form

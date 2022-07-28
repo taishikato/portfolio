@@ -15,12 +15,15 @@ const TopMain = () => {
               <img
                 src="/img/profile.jpg"
                 loading="lazy"
-                width="300"
+                width="200"
                 alt="Profile Image"
                 className="m-auto rounded-full bg-gradient-to-r p-[6px] from-[#fe0000] via-[#3B82F6] to-[#9333EA]"
               />
             </picture>
           </a>
+        </div>
+        <div className="flex flex-wrap justify-center my-6">
+          <Socials />
         </div>
         <div className="mt-3 text-xl">
           <p>
@@ -43,9 +46,6 @@ const TopMain = () => {
               <a>Bio 😊</a>
             </Link>
           </p>
-        </div>
-        <div className="flex flex-wrap justify-center mt-2">
-          <Socials />
         </div>
         <div className="mt-4">
           <NewsLetter />

@@ -17,7 +17,7 @@ const Blog: FC<IProps> = ({posts}) => (
   <div id="blog" className="w-11/12 pb-10 m-auto">
     <h3 className="text-4xl font-black text-center title">BLOG</h3>
     <div className="text-lg font-semibold text-center">My last 10 posts</div>
-    <section className="text-gray-700">
+    <section className="text-slate-200">
       <div className="container p-5 mx-auto">
         <div className="flex flex-wrap -m-4">
           {posts.map(post => (
@@ -31,11 +31,11 @@ const Blog: FC<IProps> = ({posts}) => (
                 />
               </a>
               <div className="mt-4">
-                <div className="mb-1 text-xs tracking-widest text-gray-500">
+                <div className="mb-1 text-xs tracking-widest text-slate-100">
                   {post.categories.join(', ').toUpperCase()}
                 </div>
                 <div className="text-lg font-medium">
-                  <a className="text-gray-900" href={post.link} target="_blank">
+                  <a className="text-slate-300" href={post.link} target="_blank">
                     {post.title}
                   </a>
                 </div>

@@ -7,8 +7,8 @@ import MyWork from '../components/MyWork'
 import Blog from '../components/Blog'
 
 const Home = ({posts}) => (
-  <div className="bg-slate-50">
-    <Hero />
+  <div className="bg-slate-800 text-slate-200">
+    {/* <Hero /> */}
     <TopMain />
     <Skill />
     <Oss />
