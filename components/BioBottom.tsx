@@ -33,7 +33,7 @@ const BioBottom = () => (
       <ul>
         <li>
           USA, Canada, Cuba, Thailand, Vietnam, Cambodia, Laos, Philippines, Myanmar, Sli Lanka, Singapore, Malaysia,
-          Indonesia, Korea, Australia
+          Indonesia, Korea, Australia, Mexico
         </li>
       </ul>
       <p className="mt-5 mb-1 title">
