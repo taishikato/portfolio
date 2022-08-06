@@ -1,5 +1,4 @@
 import React from 'react'
-import Hero from '../components/Hero'
 import TopMain from '../components/TopMain'
 import Skill from '../components/Skill'
 import Oss from '../components/Oss'
@@ -8,7 +7,6 @@ import Blog from '../components/Blog'
 
 const Home = ({posts}) => (
   <div className="bg-slate-900 text-slate-200">
-    {/* <Hero /> */}
     <TopMain />
     <Skill />
     <Oss />
