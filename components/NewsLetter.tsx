@@ -1,8 +1,10 @@
 const NewsLetter = () => (
-  <>
+  <div className="border border-slate-600 md:w-96 w-[90%] mx-auto p-3 rounded-md text-slate-100">
     <p className="text-base">Get notified when I release new stuff.</p>
-    <p>🙏 Subscribed: 84</p>
-    <div id="revue-embed bg-slate-300" className="p-3 mx-auto rounded-md bg-slate-300 md:w-96 w-[90%] text-slate-700">
+    <p className="mb-2">
+      🙏 Subscribed: <span className="font-semibold">84</span>
+    </p>
+    <div id="revue-embed" className="p-3 mx-auto rounded-md">
       <form
         action="https://www.getrevue.co/profile/taishik_/add_subscriber"
         method="post"
@@ -50,7 +52,7 @@ const NewsLetter = () => (
             value="Subscribe"
             name="member[subscribe]"
             id="member_submit"
-            className="p-3 rounded-md cursor-pointer bg-sky-500 text-slate-200 hover:bg-sky-600"
+            className="p-3 font-semibold rounded-md cursor-pointer bg-sky-500 text-slate-200 hover:bg-sky-600"
           />
         </div>
         <div className="revue-form-footer">
@@ -66,7 +68,7 @@ const NewsLetter = () => (
         </div>
       </form>
     </div>
-  </>
+  </div>
 )
 
 export default NewsLetter
