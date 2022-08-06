@@ -9,6 +9,7 @@ import {
   faInstagram,
   faYoutube,
   faTwitch,
+  faSoundcloud,
 } from '@fortawesome/free-brands-svg-icons'
 
 const Socials = () => (
@@ -37,6 +38,9 @@ const Socials = () => (
     <a href="https://www.instagram.com/floatingtheworld/" target="_blank" className="px-2 instagram">
       <FontAwesomeIcon icon={faInstagram} size="2x" className="w-12 h-12" />
     </a>
+    <a href="https://soundcloud.com/floatingtheworld" target="_blank" className="px-2 soundcloud">
+      <FontAwesomeIcon icon={faSoundcloud} size="2x" className="w-12 h-12" />
+    </a>
     <a href="https://nomadlist.com/@taishikato" target="_blank" className="px-2">
       <img src="/img/nomadlist-icon.svg" className="w-12 h-12" />
     </a>
@@ -61,6 +65,9 @@ const Socials = () => (
       }
       .twitch {
         color: #9146ff;
+      }
+      .soundcloud {
+        color: #ff7700;
       }
     `}</style>
   </>
