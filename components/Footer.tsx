@@ -28,7 +28,7 @@ const Footer = () => {
       <Link href="/">
         <a>taishikato.com</a>
       </Link>
-      <div className="flex flex-wrap justify-center mt-2">
+      <div className="flex flex-wrap justify-center mt-2 gap-y-3">
         <Socials />
       </div>
     </footer>

@@ -22,7 +22,7 @@ const TopMain = () => {
             </picture>
           </a>
         </div>
-        <div className="flex flex-wrap justify-center my-6">
+        <div className="flex flex-wrap justify-center my-6 gap-y-3">
           <Socials />
         </div>
         <div className="mt-3 text-xl">
