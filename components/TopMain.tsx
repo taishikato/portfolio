@@ -5,7 +5,7 @@ import Socials from './Socials'
 
 const TopMain = () => {
   return (
-    <section className="py-8 text-center text-white bg-slate-800">
+    <section className="py-8 text-center text-white bg-slate-900">
       <div className="w-11/12 m-auto">
         <div>
           <a href="https://twitter.com/taishik_" target="_blank">
@@ -16,6 +16,7 @@ const TopMain = () => {
                 src="/img/profile.jpg"
                 loading="lazy"
                 width="200"
+                height="200"
                 alt="Profile Image"
                 className="m-auto rounded-full bg-gradient-to-r p-[6px] from-[#fe0000] via-[#3B82F6] to-[#9333EA]"
               />
@@ -25,21 +26,22 @@ const TopMain = () => {
         <div className="flex flex-wrap justify-center my-6 gap-y-3">
           <Socials />
         </div>
-        <div className="mt-3 text-xl">
-          <p>
-            ✋ What's up! I am Taishi
-            <br />
-            🥑 I love creating applications
-            <br />
-            🇾 I used to work for Yahoo! Japan as a Serverside (with Node.js TypeScript and PHP) Engineer for 4 years
-            <br />
-          </p>
-          <p>⚡️My goal: I will release apps and earn $3,000 / month</p>
-          <p>
-            I quit my job, moved to 🍁Vancouver,
-            <br />
-            doing indie hacking while working as a full-time dev.
-          </p>
+        <div className="mt-3 w-[400px] mx-auto">
+          <p className="text-2xl font-bold">✋ Hey! I am Taishi</p>
+          <ul className="mt-2 tracking-wide text-center">
+            <li className="flex items-center justify-center gap-x-3 text-md">
+              <span>🇯🇵</span>From Japan
+            </li>
+            <li className="flex items-center justify-center gap-x-3 text-md">
+              <span>🇨🇦</span>Live in Canada
+            </li>
+            <li className="flex items-center justify-center gap-x-3 text-md">
+              <span>👨‍💻</span>Software Developer
+            </li>
+            <li className="flex items-center justify-center gap-x-3 text-md">
+              <span>🔨</span>Part-time Indie Hacker
+            </li>
+          </ul>
           <p>
             My{' '}
             <Link href="/about">
