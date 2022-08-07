@@ -2,10 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import NewsLetter from './NewsLetter'
 import Socials from './Socials'
+import SmallTitle from './SmallTitle'
 
 const TopMain = () => {
   return (
-    <section className="py-8 text-center text-white">
+    <section className="py-8 text-center text-white border-b border-slate-700">
       <div className="w-11/12 m-auto">
         <div>
           <a href="https://twitter.com/taishik_" target="_blank">
@@ -23,12 +24,9 @@ const TopMain = () => {
             </picture>
           </a>
         </div>
-        <div className="flex flex-wrap justify-center my-6 gap-y-3">
-          <Socials />
-        </div>
         <div className="mt-3 w-[400px] mx-auto">
-          <p className="text-2xl font-bold">✋ Hey! I am Taishi</p>
-          <ul className="mt-2 tracking-wide text-center">
+          <SmallTitle>Hey! I am Taishi</SmallTitle>
+          <ul className="tracking-wide text-center">
             <li className="flex items-center justify-center gap-x-3 text-md">
               <span>🇯🇵</span>From Japan
             </li>
@@ -42,14 +40,19 @@ const TopMain = () => {
               <span>🔨</span>Part-time Indie Hacker
             </li>
           </ul>
-          <p>
+          {/* <p>
             My{' '}
             <Link href="/about">
               <a>Bio 😊</a>
             </Link>
-          </p>
+          </p> */}
         </div>
         <div className="mt-4">
+          <div className="my-6">
+            <SmallTitle>Socials</SmallTitle>
+            <Socials />
+          </div>
+          <SmallTitle>News Letter</SmallTitle>
           <NewsLetter />
         </div>
       </div>
