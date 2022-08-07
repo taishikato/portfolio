@@ -1,4 +1,4 @@
-import React from 'react'
+import {memo} from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
@@ -13,35 +13,39 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 const Socials = () => (
-  <>
-    <a href="https://twitter.com/taishik_" target="_blank" className="px-2 twitter">
+  <div className="flex flex-wrap justify-center gap-y-3">
+    <a href="https://twitter.com/taishik_" target="_blank" className="px-2 twitter" title="Twitter">
       <FontAwesomeIcon icon={faTwitter} size="2x" className="w-12 h-12" />
     </a>
-    <a href="https://www.youtube.com/channel/UCBWgQYHZYgmjjrMNHjjZoog" target="_blank" className="px-2 youtube">
-      <FontAwesomeIcon icon={faYoutube} size="2x" className="w-12 h-12" />
-    </a>
-    <a href="https://www.twitch.tv/taishikk" target="_blank" className="px-2 twitch">
-      <FontAwesomeIcon icon={faTwitch} size="2x" className="w-12 h-12" />
-    </a>
-    <a href="https://www.linkedin.com/in/takato0903/" target="_blank" className="px-2 linkedin">
+    <a href="https://www.linkedin.com/in/takato0903/" target="_blank" className="px-2 linkedin" title="LinkedIn">
       <FontAwesomeIcon icon={faLinkedin} size="2x" className="w-12 h-12" />
     </a>
-    <a href="https://medium.com/@TaishiKato" target="_blank" className="px-2 medium">
+    <a
+      href="https://www.youtube.com/channel/UCBWgQYHZYgmjjrMNHjjZoog"
+      target="_blank"
+      className="px-2 youtube"
+      title="YouTube">
+      <FontAwesomeIcon icon={faYoutube} size="2x" className="w-12 h-12" />
+    </a>
+    <a href="https://www.twitch.tv/taishikk" target="_blank" className="px-2 twitch" title="Twitch">
+      <FontAwesomeIcon icon={faTwitch} size="2x" className="w-12 h-12" />
+    </a>
+    <a href="https://medium.com/@TaishiKato" target="_blank" className="px-2 medium" title="Medium">
       <FontAwesomeIcon icon={faMedium} size="2x" className="w-12 h-12" />
     </a>
-    <a href="https://dev.to/taishi" target="_blank" className="px-2 medium">
+    <a href="https://dev.to/taishi" target="_blank" className="px-2 medium" title="Dev.to">
       <FontAwesomeIcon icon={faDev} size="2x" className="w-12 h-12" />
     </a>
-    <a href="https://github.com/taishikato" target="_blank" className="px-2 github">
+    <a href="https://github.com/taishikato" target="_blank" className="px-2 github" title="GitHub">
       <FontAwesomeIcon icon={faGithub} size="2x" className="w-12 h-12" />
     </a>
-    <a href="https://www.instagram.com/floatingtheworld/" target="_blank" className="px-2 instagram">
+    <a href="https://www.instagram.com/floatingtheworld/" target="_blank" className="px-2 instagram" title="Instagram">
       <FontAwesomeIcon icon={faInstagram} size="2x" className="w-12 h-12" />
     </a>
-    <a href="https://soundcloud.com/floatingtheworld" target="_blank" className="px-2 soundcloud">
+    <a href="https://soundcloud.com/floatingtheworld" target="_blank" className="px-2 soundcloud" title="SoundCloud">
       <FontAwesomeIcon icon={faSoundcloud} size="2x" className="w-12 h-12" />
     </a>
-    <a href="https://nomadlist.com/@taishikato" target="_blank" className="px-2">
+    <a href="https://nomadlist.com/@taishikato" target="_blank" className="px-2" title="NomadList">
       <img src="/img/nomadlist-icon.svg" className="w-12 h-12" />
     </a>
     <style jsx>{`
@@ -70,7 +74,7 @@ const Socials = () => (
         color: #ff7700;
       }
     `}</style>
-  </>
+  </div>
 )
 
-export default Socials
+export default memo(Socials)
