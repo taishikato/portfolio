@@ -5,9 +5,16 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        theme: 'rgb(74 222 128)',
+      },
+    },
+  },
   content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
   plugins: [
+    require('daisyui'),
     function ({addComponents}) {
       addComponents({
         '.container': {
