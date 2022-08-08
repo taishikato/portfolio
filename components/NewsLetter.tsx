@@ -16,7 +16,7 @@ const NewsLetter = () => (
           <div className="flex items-center justify-between revue-form-group">
             <label htmlFor="member_email">Email address</label>
             <input
-              className="p-2 border rounded-full revue-form-field"
+              className="p-2 border rounded-full revue-form-field focus:outline-none focus:ring focus:ring-theme"
               placeholder="Your email address..."
               type="email"
               name="member[email]"
@@ -28,7 +28,7 @@ const NewsLetter = () => (
               First name <span className="optional">(Optional)</span>
             </label>
             <input
-              className="p-2 border rounded-full revue-form-field"
+              className="p-2 border rounded-full revue-form-field focus:outline-none focus:ring focus:ring-theme"
               placeholder="First name... (Optional)"
               type="text"
               name="member[first_name]"
@@ -40,7 +40,7 @@ const NewsLetter = () => (
               Last name <span className="optional">(Optional)</span>
             </label>
             <input
-              className="p-2 border rounded-full revue-form-field"
+              className="p-2 border rounded-full revue-form-field focus:outline-none focus:ring focus:ring-theme"
               placeholder="Last name... (Optional)"
               type="text"
               name="member[last_name]"
