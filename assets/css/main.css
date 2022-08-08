@@ -18,3 +18,47 @@ a {
 .weird-object2 {
   border-radius:40% 40% 50% 40%/30% 50% 50% 50%;
 }
+
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 8px 0 4px 0;
+}
+
+.marquee .marqueeone{
+  animation: marquee 20s linear infinite;
+}
+
+.marquee .marqueetwo{
+  animation: marquee 20s linear 2.5s infinite;
+}
+
+.marquee .marqueethree{
+  animation: marquee 20s linear 5s infinite;
+}
+
+.marquee .marqueefour{
+  animation: marquee 20s linear 7.5s infinite;
+}
+
+/* even out the elements */
+.marquee div {
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.marquee:hover div {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% { left: 100%; }
+  50% { left: -100%; }
+  100% {left: -100%}
+}
