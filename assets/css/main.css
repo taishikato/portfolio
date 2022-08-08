@@ -28,19 +28,19 @@ a {
 }
 
 .marquee .marqueeone{
-  animation: marquee 20s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 .marquee .marqueetwo{
-  animation: marquee 20s linear 2.5s infinite;
+  animation: marquee 30s linear 2.5s infinite;
 }
 
 .marquee .marqueethree{
-  animation: marquee 20s linear 5s infinite;
+  animation: marquee 30s linear 5s infinite;
 }
 
 .marquee .marqueefour{
-  animation: marquee 20s linear 7.5s infinite;
+  animation: marquee 30s linear 7.5s infinite;
 }
 
 /* even out the elements */
