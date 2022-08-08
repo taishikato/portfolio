@@ -9,9 +9,9 @@ const Footer = () => {
     <footer className="px-3 pt-20 text-center border-t border-slate-700">
       <NewsLetter />
       <Marquee />
-      <div className="pb-6 bg-slate-200 pt-14">
+      <div className="bg-slate-200 py-14">
         <Socials />
-        <div className="mt-3 font-light tracking-wide text-slate-800">
+        <div className="mt-6 font-light tracking-wide text-slate-800">
           ©
           <Link href="/">
             <a className="text-slate-800">taishikato.com</a>
