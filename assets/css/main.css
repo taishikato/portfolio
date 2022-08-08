@@ -7,6 +7,10 @@ a {
   box-shadow: 4px 4px 0px 0px rgb(74 222 128);
 }
 
+.shadow-left {
+  box-shadow: -6px 6px 0px 0px rgb(74 222 128);
+}
+
 .weird-object1 {
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
 }
