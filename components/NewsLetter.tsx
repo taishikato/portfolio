@@ -1,7 +1,5 @@
 const NewsLetter = () => (
-  <div
-    className="border-2 border-theme md:w-[500px] w-[90%] mx-auto p-6 text-slate-100 font-light"
-    style={{borderRadius: '50% 50% 50% 70%/50% 50% 70% 60%'}}>
+  <div className="border-2 border-theme md:w-[500px] w-[90%] mx-auto p-6 text-slate-100 font-light weird-object1">
     <div className="w-[80%] mx-auto">
       <p className="text-base">Get notified when I release new stuff.</p>
       <p className="mb-2">
