@@ -25,7 +25,7 @@ const Oss = () => {
       <h3 className="mb-6 text-4xl font-black">OSS Contributions</h3>
       <div className="flex flex-col mt-3 gap-y-5">
         {OSSList.map(item => (
-          <Item {...item} />
+          <Item {...item} key={item.link} />
         ))}
       </div>
     </div>
