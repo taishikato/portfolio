@@ -4,10 +4,11 @@ import NewsLetter from '../NewsLetter'
 import Socials from '../Socials'
 import SmallTitle from '../SmallTitle'
 import Code from './Code'
+import WorkHistory from './WorkHistory'
 
 const TopMain = () => {
   return (
-    <section className="py-8 text-center text-white border-b border-slate-700">
+    <section className="text-center text-white border-b pt-14 pb-14 border-slate-700">
       <div className="w-11/12 m-auto">
         <div className="flex flex-col items-center justify-center gap-x-14 md:flex-row gap-y-5 md:gap-y-0">
           <div>
@@ -29,6 +30,8 @@ const TopMain = () => {
           </div>
           <Code />
         </div>
+
+        <WorkHistory />
 
         {/* <div>
           <a href="https://twitter.com/taishik_" target="_blank">
@@ -69,13 +72,13 @@ const TopMain = () => {
               <a>Bio 😊</a>
             </Link>
           </p> */}
-        <div className="mt-12">
+        <div className="mt-20">
           <div className="my-6">
             <SmallTitle>Socials</SmallTitle>
             <Socials />
           </div>
         </div>
-        <div className="mt-12">
+        <div className="mt-20">
           <SmallTitle>News Letter</SmallTitle>
           <NewsLetter />
           {/* <NewsLetter2 /> */}
