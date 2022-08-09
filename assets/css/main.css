@@ -24,34 +24,29 @@ a {
   width: 100%;
   overflow: hidden;
   position: relative;
-  padding: 8px 0 4px 0;
+  padding: 8px 0;
 }
 
 .marquee .marqueeone{
-  animation: marquee 30s linear infinite;
+  animation: marquee 40s linear infinite;
 }
 
 .marquee .marqueetwo{
-  animation: marquee 30s linear 2.5s infinite;
+  animation: marquee 40s linear 10s infinite;
 }
 
 .marquee .marqueethree{
-  animation: marquee 30s linear 5s infinite;
+  animation: marquee 40s linear 20s infinite;
 }
 
 .marquee .marqueefour{
-  animation: marquee 30s linear 7.5s infinite;
+  animation: marquee 40s linear 30s infinite;
 }
 
 /* even out the elements */
-.marquee div {
-  position: absolute;
-  width: 100%;
-  left: 100%;
-  height: 40px;
-  display: flex;
+/* .marquee div {
   justify-content: space-between;
-}
+} */
 
 .marquee:hover div {
   animation-play-state: paused;
