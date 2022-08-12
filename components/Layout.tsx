@@ -6,7 +6,7 @@ const Layout = props => {
   useScript('/js/makerWidget.js')
   useScript('/js/myTimezone.js')
   return (
-    <div>
+    <div className="bg-black text-slate-200">
       {props.children}
       <Footer />
     </div>

@@ -2,96 +2,33 @@ import {memo} from 'react'
 
 const Marquee = () => {
   return (
-    <div className="marquee bg-theme h-[70px] mt-20 border-b-2 border-black text-slate-900 text-3xl flex items-center font-semibold">
-      <div className="absolute flex items-center justify-between w-full left-full marqueeone">
-        <a href="#" className="text-slate-900">
-          twitter
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          instagram
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          pinterest
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          spotify
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          magazine
-        </a>
-        &nbsp;&nbsp;&nbsp;
+    <>
+      <div className="marquee bg-theme h-[90px] mt-20 border-b-2 border-black text-slate-900 text-4xl flex items-center font-semibold">
+        <div className="absolute flex items-center justify-between w-full left-full marqueeone">Let's Connect 👇</div>
+        <div className="absolute flex items-center justify-between w-full left-full marqueetwo">Let's Connect 👇</div>
+        <div className="absolute flex items-center justify-between w-full left-full marqueethree">Let's Connect 👇</div>
+        <div className="absolute flex items-center justify-between w-full left-full marqueefour">Let's Connect 👇</div>
       </div>
-      <div className="absolute flex justify-between w-full left-full marqueetwo">
-        <a href="#" className="text-slate-900">
-          twitter
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          instagram
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          pinterest
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          spotify
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          magazine
-        </a>
-        &nbsp;&nbsp;&nbsp;
-      </div>
-      <div className="absolute flex justify-between w-full left-full marqueethree">
-        <a href="#" className="text-slate-900">
-          twitter
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          instagram
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          pinterest
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          spotify
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          magazine
-        </a>
-        &nbsp;&nbsp;&nbsp;
-      </div>
-      <div className="absolute flex justify-between w-full left-full marqueefour">
-        <a href="#" className="text-slate-900">
-          twitter
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          instagram
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          pinterest
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          spotify
-        </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" className="text-slate-900">
-          magazine
-        </a>
-        &nbsp;&nbsp;&nbsp;
-      </div>
-    </div>
+      <style jsx>{`
+        .marquee .marqueeone {
+          animation: marquee 60s linear infinite;
+        }
+        .marquee .marqueetwo {
+          animation: marquee 60s linear 4s infinite;
+        }
+
+        .marquee .marqueethree {
+          animation: marquee 60s linear 8s infinite;
+        }
+
+        .marquee .marqueefour {
+          animation: marquee 60s linear 12s infinite;
+        }
+        // .marquee:hover div {
+        //   animation-play-state: paused;
+        // }
+      `}</style>
+    </>
   )
 }
 

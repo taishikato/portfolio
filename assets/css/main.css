@@ -3,8 +3,9 @@ a {
 }
 
 .shadow-box:hover {
-  transition: box-shadow 200ms;
+  transition: box-shadow 100ms, transform 100ms;
   box-shadow: 4px 4px 0px 0px rgb(74 222 128);
+  transform: translate(0, -2px);
 }
 
 .shadow-left {
@@ -25,31 +26,6 @@ a {
   overflow: hidden;
   position: relative;
   padding: 8px 0;
-}
-
-.marquee .marqueeone{
-  animation: marquee 40s linear infinite;
-}
-
-.marquee .marqueetwo{
-  animation: marquee 40s linear 10s infinite;
-}
-
-.marquee .marqueethree{
-  animation: marquee 40s linear 20s infinite;
-}
-
-.marquee .marqueefour{
-  animation: marquee 40s linear 30s infinite;
-}
-
-/* even out the elements */
-/* .marquee div {
-  justify-content: space-between;
-} */
-
-.marquee:hover div {
-  animation-play-state: paused;
 }
 
 @keyframes marquee {

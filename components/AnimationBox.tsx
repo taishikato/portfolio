@@ -2,14 +2,14 @@ import React, {FC} from 'react'
 
 const AnimationBox: FC<IProps> = ({image, name, url, webpImage}) => {
   return (
-    <div className="portfolio-wrap">
-      <a href={url} target="_blank">
+    <div className="rounded-md portfolio-wrap">
+      <a href={url} target="_blank" className="rounded-lg">
         <picture>
           <source srcSet={webpImage} type="image/webp" />
           <source srcSet={image} type="image/jpeg" />
           <img src={image} loading="lazy" width="320" />
         </picture>
-        <span className="text-3xl portfolio-title font-semibold">{name}</span>
+        <span className="text-3xl font-semibold portfolio-title">{name}</span>
       </a>
       <style jsx>{`
         .portfolio-wrap a {

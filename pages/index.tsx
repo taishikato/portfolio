@@ -1,7 +1,7 @@
 import React from 'react'
-import TopMain from '../components/TopMain'
+import TopMain from '../components/TopMain/TopMain'
 import Skill from '../components/Skill'
-import Oss from '../components/Oss'
+import Oss from '../components/OSS/Oss'
 import MyWork from '../components/MyWork'
 import Blog from '../components/Blog'
 

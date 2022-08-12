@@ -14,11 +14,11 @@ interface IProps {
 }
 
 const Blog: FC<IProps> = ({posts}) => (
-  <div id="blog" className="w-11/12 pb-10 m-auto">
-    <h3 className="text-4xl font-black text-center title">BLOG</h3>
+  <div id="blog" className="w-11/12 pb-10 m-auto md:w-10/12">
+    <h3 className="mb-6 text-4xl font-black text-center">BLOG</h3>
     <div className="text-lg font-semibold text-center">My last 10 posts</div>
     <section className="text-slate-200">
-      <div className="container p-5 mx-auto">
+      <div className="py-5 mx-auto">
         <div className="flex flex-wrap -m-4">
           {posts.map(post => (
             <div key={post.guid} className="w-full p-4 lg:w-1/4 md:w-1/2">

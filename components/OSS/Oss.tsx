@@ -21,7 +21,7 @@ const OSSList = [
 
 const Oss = () => {
   return (
-    <div id="oss" className="w-11/12 m-auto my-20">
+    <div id="oss" className="w-11/12 m-auto my-20 md:w-10/12">
       <h3 className="mb-6 text-4xl font-black">OSS Contributions</h3>
       <div className="flex flex-col mt-3 gap-y-5">
         {OSSList.map(item => (
