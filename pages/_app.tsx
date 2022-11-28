@@ -45,7 +45,12 @@ class MyApp extends App {
           <meta key="twitter:site" property="twitter:site" content="@ProductHance" />
           <meta key="twitter:card" property="twitter:card" content="summary_large_image" />
         </Head>
-        <MantineProvider withGlobalStyles withNormalizeCSS theme={{}}>
+        <MantineProvider
+          withGlobalStyles
+          withNormalizeCSS
+          theme={{
+            colorScheme: 'light',
+          }}>
           <Layout>
             <Component {...pageProps} />
           </Layout>
