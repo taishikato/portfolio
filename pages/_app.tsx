@@ -6,6 +6,7 @@ import Router from 'next/router'
 import withGA from 'next-ga'
 import '../assets/css/tailwind.css'
 import '../assets/css/main.css'
+import {MantineProvider} from '@mantine/core'
 
 class MyApp extends App {
   render() {
@@ -44,9 +45,11 @@ class MyApp extends App {
           <meta key="twitter:site" property="twitter:site" content="@ProductHance" />
           <meta key="twitter:card" property="twitter:card" content="summary_large_image" />
         </Head>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <MantineProvider withGlobalStyles withNormalizeCSS theme={{}}>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </MantineProvider>
       </>
     )
   }
