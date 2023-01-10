@@ -21,10 +21,6 @@ class MyApp extends App {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>{title}</title>
           <link rel="icon" href="/favicon.ico" />
-          <link
-            href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900&display=swap"
-            rel="stylesheet"></link>
-          <link href="https://fonts.googleapis.com/css?family=Spartan:500,700,800&display=swap" rel="stylesheet"></link>
           <link key="canonical" rel="canonical" href={url} />
           <meta key="description" name="description" content={description} />
           <meta key="og:description" property="og:description" content={description} />

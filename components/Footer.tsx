@@ -25,9 +25,7 @@ const Footer = () => {
           Andrey Azimov
         </a>
       </p>
-      <Link href="/">
-        <a>taishikato.com</a>
-      </Link>
+      <Link href="/">taishikato.com</Link>
       <div className="flex flex-wrap justify-center mt-2">
         <Socials />
       </div>

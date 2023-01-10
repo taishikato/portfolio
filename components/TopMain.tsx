@@ -38,10 +38,7 @@ const TopMain = () => {
             doing indie hacking while working as a full-time dev.
           </p>
           <p>
-            My{' '}
-            <Link href="/about">
-              <a>Bio 😊</a>
-            </Link>
+            My <Link href="/about">Bio 😊</Link>
           </p>
         </div>
         <div className="flex flex-wrap justify-center mt-2">
