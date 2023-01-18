@@ -1,8 +1,14 @@
 import React from 'react'
-import AnimationBox from './AnimationBox'
 import MyWorkSingle from './MyWorkSingle'
 
 const works = [
+  {
+    id: 10,
+    name: 'Kuiq - This is how you ship your API in 10 sec',
+    description: 'On Kuiq, you will write an API with TypeScript and deploy it with one click.',
+    link: 'https://kuiq.io/',
+    tags: [{title: 'dead', color: 'red'}],
+  },
   {
     id: 9,
     name: 'Gated DM - An Enhanced Twitter DM',
