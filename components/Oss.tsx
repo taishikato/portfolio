@@ -2,9 +2,16 @@ import React from 'react'
 
 const Oss = () => {
   return (
-    <div id="oss" className="m-auto w-10/12 my-10">
-      <h3 className="title font-black text-4xl text-center">OSS Contributions</h3>
+    // <div className="py-3 bg-black text-gray-50">
+    <div id="oss" className="w-10/12 m-auto my-10">
+      <h3 className="text-4xl font-black text-center title">OSS Contributions</h3>
       <ul className="mt-3">
+        <li className="mb-1 font-bold list-disc">
+          <a href="https://github.com/modal-labs/modal-examples/pull/340" target="_blank">
+            Update function call: `_call_graph` -{'>'} `call_graph` by taishikato · Pull Request #340 ·
+            modal-labs/modal-examples
+          </a>
+        </li>
         <li className="mb-1 font-bold list-disc">
           <a href="https://github.com/nuxt/docs/pull/1799" target="_blank">
             ja: document delete heroku-postbuild section by taishikato · Pull Request #1799 · nuxt/docs
@@ -22,6 +29,7 @@ const Oss = () => {
         </li>
       </ul>
     </div>
+    // </div>
   )
 }
 

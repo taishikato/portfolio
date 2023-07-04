@@ -15,7 +15,7 @@ const TopMain = () => {
               <img
                 src="/img/profile.jpg"
                 loading="lazy"
-                width="300"
+                width="100"
                 alt="Profile Image"
                 className="m-auto rounded-full bg-gradient-to-r p-[6px] from-[#fe0000] via-[#3B82F6] to-[#9333EA]"
               />
@@ -23,7 +23,7 @@ const TopMain = () => {
           </a>
         </div>
         <div className="mt-3 text-xl">
-          <p>
+          {/* <p>
             ✋ What's up! I am Taishi
             <br />
             🥑 I love creating applications
@@ -39,7 +39,10 @@ const TopMain = () => {
           </p>
           <p>
             My <Link href="/about">Bio 😊</Link>
-          </p>
+          </p> */}
+          <p>Software developer in Tokyo/vancouver for 8 years.</p>
+          <p>I quit my job in April 2023 and am trying to set up</p>
+          my own business :D
         </div>
         <div className="flex flex-wrap justify-center mt-2">
           <Socials />

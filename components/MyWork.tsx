@@ -3,6 +3,34 @@ import MyWorkSingle from './MyWorkSingle'
 
 const works = [
   {
+    id: 13,
+    name: 'AutoThread AI - Turn your podcast and YouTube into engaging Twitter threads automatically.',
+    description: 'With AutoThread AI, your videos/audios become engaging Twitter Thread in one click.',
+    link: 'https://autothreadai.com/',
+    tags: [
+      {title: 'alive', color: 'lime'},
+      {title: '$9 MRR', color: 'yellow'},
+    ],
+  },
+  {
+    id: 12,
+    name: 'Audio2Doc - A chatbot on YouTube',
+    description: 'A Chatbot living on YouTube, you can ask questions and more.',
+    link: 'https://www.producthunt.com/products/audio2doc-a-chatbot-on-youtube',
+    tags: [{title: 'dead', color: 'red'}],
+  },
+  {
+    id: 11,
+    name: 'Penelope AI - The markdown editor that helps you write seamlessly',
+    description:
+      'Penelope AI is a markdown editor with AI features such as auto-completing, paraphrasing, summarizing, and story-generating.',
+    link: 'https://penelopeai.com/',
+    tags: [
+      {title: 'alive', color: 'lime'},
+      {title: '$270 MRR', color: 'yellow'},
+    ],
+  },
+  {
     id: 10,
     name: 'Kuiq - This is how you ship your API in 10 sec',
     description: 'On Kuiq, you will write an API with TypeScript and deploy it with one click.',
@@ -22,17 +50,14 @@ const works = [
     name: 'My selfie NFT collection',
     description: 'An experimental NFT collection.',
     link: 'https://opensea.io/collection/taishi-face-transition-in-southeast-asia',
-    tags: [
-      {title: 'alive', color: 'lime'},
-      {title: 'fun', color: 'yellow'},
-    ],
+    tags: [{title: 'zombie', color: 'pink'}],
   },
   {
     id: 7,
     name: '@taishikato/slug-generator',
     description: 'A npm library to generate slug.',
     link: 'https://www.npmjs.com/package/@taishikato/slug-generator',
-    tags: [{title: 'alive', color: 'lime'}],
+    tags: [{title: 'zombie', color: 'pink'}],
   },
   {
     id: 6,
@@ -41,7 +66,7 @@ const works = [
     link: 'https://www.producthunt.com/products/askmakers#askmakers-2-0',
     tags: [
       {title: 'dead', color: 'red'},
-      {title: 'most thrived and fun', color: 'green'},
+      // {title: 'most thrived and fun', color: 'green'},
       {title: 'More than 100 people joined', color: 'yellow'},
     ],
   },
@@ -50,10 +75,7 @@ const works = [
     name: '360gram',
     description: 'Instagram but sharing 360 pictures.',
     link: 'https://github.com/taishikato/360gram/blob/master/README.md',
-    tags: [
-      {title: 'zombie', color: 'pink'},
-      {title: 'still fun', color: 'cyan'},
-    ],
+    tags: [{title: 'zombie', color: 'pink'}],
   },
   {
     id: 4,
@@ -86,7 +108,7 @@ const works = [
 ]
 
 const MyWork = () => (
-  <div id="myWork" className="px-3 pb-10 my-10 bg-black text-slate-50">
+  <div id="myWork" className="px-3 pb-10 my-10 text-gray-800">
     <h3 className="py-5 text-4xl font-black text-center title">MY PROJECTS</h3>
 
     <div className="flex flex-col w-full m-auto md:w-10/12 lg:w-10/12 gap-y-5">

@@ -8,11 +8,11 @@ import Blog from '../components/Blog'
 
 const Home = ({posts}) => (
   <div className="bg-slate-50">
-    <Hero />
+    {/* <Hero /> */}
     <TopMain />
-    <Skill />
-    <Oss />
     <MyWork />
+    <Oss />
+    <Skill />
     <Blog posts={posts} />
   </div>
 )
