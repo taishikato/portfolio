@@ -38,7 +38,7 @@ class MyApp extends App {
             property="og:image"
             content="https://res.cloudinary.com/the360gram/image/upload/v1533914896/Federation_Square_Melbourne_Victoria_Australia_c2xmej.jpg"
           />
-          <meta key="twitter:site" property="twitter:site" content="@ProductHance" />
+          <meta key="twitter:site" property="twitter:site" content="@taishik_" />
           <meta key="twitter:card" property="twitter:card" content="summary_large_image" />
         </Head>
         <MantineProvider
