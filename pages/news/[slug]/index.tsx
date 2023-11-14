@@ -53,11 +53,11 @@ export async function getStaticProps({params}) {
 
 export async function getStaticPaths() {
   return {
-    paths: [
-      {
-        params: {slug: 'weekly-update-3-and-hot-spring-trip'},
-      },
-    ],
+    paths: Object.keys(ARTICLES).map(slug => {
+      return {
+        params: {slug},
+      }
+    }),
     fallback: false,
   }
 }
