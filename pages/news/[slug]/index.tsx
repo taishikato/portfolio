@@ -6,6 +6,10 @@ const ARTICLES = {
     title: 'Weekly update #3 and hot spring trip ♨️',
     url: 'https://dub.sh/weekly-update-3-and-hot-spring-trip',
   },
+  'weekly-update-6-being-a-nomad-in-chiang-mai': {
+    title: 'Weekly update #6 - Being a nomad in Chiang Mai',
+    url: 'https://dub.sh/weekly-update-6-being-a-nomad-in-chiang-mai',
+  },
 }
 
 const News = ({postData}) => {
