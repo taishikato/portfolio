@@ -10,6 +10,10 @@ const ARTICLES = {
     title: 'Weekly update #6 - Being a nomad in Chiang Mai',
     url: 'https://dub.sh/weekly-update-6-being-a-nomad-in-chiang-mai',
   },
+  'weekly-update-9-new-feature-dropped': {
+    title: "Weekly update #9 - a new feature's dropped. uncertainty",
+    url: 'https://dub.sh/weekly-update-9-new-feature-dropped',
+  },
 }
 
 const News = ({postData}) => {
