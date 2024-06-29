@@ -19,11 +19,11 @@
     "@mantine/hooks": "^5.8.3",
     "@mantine/next": "^5.8.3",
     "autoprefixer": "^10.4.2",
-    "next": "13.1.1",
-    "next-ga": "^2.3.4",
+    "next": "14.2.4",
+    "nextjs-google-analytics": "^2.3.3",
     "postcss-import": "^14.0.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "tailwindcss": "3.0.18"
   },
   "devDependencies": {

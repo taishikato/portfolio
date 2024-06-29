@@ -108,14 +108,22 @@ const works = [
 ]
 
 const MyWork = () => (
-  <div id="myWork" className="px-3 pb-10 my-10 text-gray-800">
+  <div id="myWork" className="px-3 pb-10 my-24 text-gray-800">
     <h3 className="py-5 text-4xl font-black text-center title">MY PROJECTS</h3>
 
-    <div className="flex flex-col w-full m-auto md:w-10/12 lg:w-10/12 gap-y-5">
+    <div className="max-w-5xl mx-auto">
+      <iframe
+        src="https://airtable.com/embed/appIrznU5cXdfKBMF/shrFTwEVvE6uQpVE5?viewControls=on"
+        width="100%"
+        height="533"
+        className="airtable-embed bg-transparent border"></iframe>
+    </div>
+
+    {/* <div className="flex flex-col w-full m-auto md:w-10/12 lg:w-10/12 gap-y-5">
       {works.map(work => {
         return <MyWorkSingle key={work.id} work={work} />
       })}
-    </div>
+    </div> */}
 
     {/* <div className="flex flex-wrap w-full m-auto md:w-11/12 lg:w-11/12"> */}
     {/* <div className="flex justify-center w-full py-2 md:w-4/12 lg:w-4/12">

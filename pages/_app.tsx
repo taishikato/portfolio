@@ -2,11 +2,10 @@ import React from 'react'
 import App from 'next/app'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import Router from 'next/router'
-import withGA from 'next-ga'
 import '../assets/css/tailwind.css'
 import '../assets/css/main.css'
 import {MantineProvider} from '@mantine/core'
+import {GoogleAnalytics} from 'nextjs-google-analytics'
 
 class MyApp extends App {
   render() {
@@ -15,6 +14,7 @@ class MyApp extends App {
     const title = 'Taishi Kato'
     const url = 'https://taishikato.com/'
     const description = 'Software Developer and Traveler based in Vancouver'
+
     return (
       <>
         <Head>
@@ -49,6 +49,7 @@ class MyApp extends App {
           }}>
           <Layout>
             <Component {...pageProps} />
+            <GoogleAnalytics gaMeasurementId="UA-27648393-1" />
           </Layout>
         </MantineProvider>
       </>
@@ -56,4 +57,4 @@ class MyApp extends App {
   }
 }
 
-export default withGA('UA-27648393-1', Router)(MyApp)
+export default MyApp

@@ -3,7 +3,7 @@ import React from 'react'
 const Oss = () => {
   return (
     // <div className="py-3 bg-black text-gray-50">
-    <div id="oss" className="w-10/12 m-auto my-10">
+    <div id="oss" className="max-w-5xl m-auto my-24">
       <h3 className="text-4xl font-black text-center title">OSS Contributions</h3>
       <ul className="mt-3">
         <li className="mb-1 font-bold list-disc">
