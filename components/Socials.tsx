@@ -35,7 +35,7 @@ const Socials = () => (
     <a href="https://github.com/taishikato" target="_blank" className="px-2 github">
       <FontAwesomeIcon icon={faGithub as FontAwesomeIconProps['icon']} size="2x" className="w-12 h-12" />
     </a>
-    <a href="https://www.instagram.com/floatingtheworld/" target="_blank" className="px-2 instagram">
+    <a href="https://www.instagram.com/taishik_" target="_blank" className="px-2 instagram">
       <FontAwesomeIcon icon={faInstagram as FontAwesomeIconProps['icon']} size="2x" className="w-12 h-12" />
     </a>
     <a href="https://nomadlist.com/@taishikato" target="_blank" className="px-2">
