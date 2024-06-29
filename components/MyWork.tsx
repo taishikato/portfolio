@@ -113,7 +113,7 @@ const MyWork = () => (
 
     <div className="max-w-5xl mx-auto">
       <iframe
-        src="https://airtable.com/embed/appIrznU5cXdfKBMF/shrFTwEVvE6uQpVE5?viewControls=on"
+        src="https://airtable.com/embed/appIrznU5cXdfKBMF/shrFTwEVvE6uQpVE5?layout=card"
         width="100%"
         height="533"
         className="airtable-embed bg-transparent border"></iframe>
